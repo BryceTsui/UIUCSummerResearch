@@ -1,0 +1,377 @@
+digraph "DependenceGraph" {
+	compound=true label="Graph 0x93a0e50 has 29 nodes\n
+	dd edges color: cyan4
+	use edges color: black, dashed
+	cd edges color: blue
+	cfg edges color: gray"
+
+	/* subgraph 0x93a0e50 nodes */
+	subgraph cluster_0x93a0e50 {
+		style="filled, rounded" fillcolor=gray95
+		label="Subgraph main [0x93a0e50]\nhas 29 nodes
+"
+		/* Basic Block main::
+label  [0x93acc70] */
+		subgraph cluster_bb_0x93acc70 {
+			style=filled fillcolor=white
+			label="main::
+label  [0x93acc70]		\ndfs order: 1"
+			NODE0x93acd80 [shape=rect label="0x93a1bec"]
+			NODE0x93acea0 [shape=rect label="0x93a81a4"]
+			NODE0x93acfc0 [shape=rect label="0x93a599c"]
+			NODE0x93ad0f0 [shape=rect label="0x93a613c"]
+			NODE0x93ad220 [shape=rect label="0x93a6180"]
+			NODE0x93ad350 [shape=rect label="0x93a61c0"]
+			NODE0x93ad498 [shape=rect label="0x93a6208"]
+			NODE0x93ad5c8 [shape=rect label="0x93a623c"]
+		} /* cluster_bb_0x93acc70 */
+
+		/* Basic Block main::
+label  [0x93ad718] */
+		subgraph cluster_bb_0x93ad718 {
+			style=filled fillcolor=white
+			label="main::
+label  [0x93ad718]		\ndfs order: 2"
+			NODE0x93ad828 [shape=rect label="0x93a6284"]
+			NODE0x93ad970 [shape=rect label="0x93a62bc"]
+			NODE0x93adaa0 [shape=rect label="0x93a62f4"]
+			NODE0x93adbd0 [shape=rect label="0x93a632c"]
+			NODE0x93add00 [shape=rect label="0x93a6368"]
+			NODE0x93ade30 [shape=rect label="0x93a63a8"]
+			NODE0x93adf60 [shape=rect label="0x93a63dc"]
+		} /* cluster_bb_0x93ad718 */
+
+		/* Basic Block main::
+label  [0x93ae0b0] */
+		subgraph cluster_bb_0x93ae0b0 {
+			style=filled fillcolor=white
+			label="main::
+label  [0x93ae0b0]		\ndfs order: 3"
+			NODE0x93ae1c0 [shape=rect label="0x93a640c"]
+			NODE0x93ae2f0 [shape=rect label="0x93a6444"]
+			NODE0x93ae420 [shape=rect label="0x93a6480"]
+			NODE0x93ae550 [shape=rect label="0x93a64cc"]
+		} /* cluster_bb_0x93ae0b0 */
+
+		/* Basic Block main::
+label  [0x93ae6a0] */
+		subgraph cluster_bb_0x93ae6a0 {
+			style=filled fillcolor=white
+			label="main::
+label  [0x93ae6a0]		\ndfs order: 4"
+			NODE0x93ae7b0 [shape=rect label="0x93a64fc"]
+			NODE0x93ae8e0 [shape=rect label="0x93a6540"]
+			NODE0x93aea10 [shape=rect label="0x93a59e0"]
+			NODE0x93aeb40 [shape=rect label="0x93a5928"]
+			NODE0x93aec70 [shape=rect label="0x93a595c"]
+			NODE0x93aeda0 [shape=rect label="0x93a5c78"]
+			NODE0x93aeed0 [shape=rect label="0x93a5cac"]
+			NODE0x93af000 [shape=rect label="0x93a6574"]
+			NODE0x93af130 [shape=rect label="0x93a65bc"]
+			NODE0x93af278 [shape=rect label="0x93a65f4"]
+		} /* cluster_bb_0x93ae6a0 */
+
+	NODE0x93ad5c8 -> NODE0x93ad828 [penwidth=2 label="0"  ltail=cluster_bb_0x93acc70  lhead=cluster_bb_0x93ad718  color="gray"]
+	NODE0x93adf60 -> NODE0x93ae1c0 [penwidth=2 label="0"  ltail=cluster_bb_0x93ad718  lhead=cluster_bb_0x93ae0b0  color="gray"]
+	/* post-dominance frontiers */
+NODE0x93ad828 -> NODE0x93ae550 [penwidth=3 color=green  ltail=cluster_bb_0x93ad718  lhead=cluster_bb_0x93ae0b0 constraint=false]
+	NODE0x93ae550 -> NODE0x93ad828 [penwidth=2 label="0"  ltail=cluster_bb_0x93ae0b0  lhead=cluster_bb_0x93ad718  color="gray"]
+	NODE0x93ae550 -> NODE0x93ae7b0 [penwidth=2 label="1"  ltail=cluster_bb_0x93ae0b0  lhead=cluster_bb_0x93ae6a0  color="gray"]
+	NODE0x93ae550 -> NODE0x93ad828 [penwidth=2 color=blue  ltail=cluster_bb_0x93ae0b0  lhead=cluster_bb_0x93ad718]
+	NODE0x93af278 -> NODE0x93af3a8 [penwidth=2 label="255"  ltail=cluster_bb_0x93ae6a0  lhead=cluster_bb_0x93af4a8  color="gray"]
+		NODE0x93acd80 [label="main::
+  %1 = alloca i32, align 4" style=filled fillcolor=white]
+		/* -- node 0x93a1bec
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		NODE0x93acd80 -> NODE0x93ad220 [color="black" rank=max style="dashed"]
+		/* CD edges */
+		/* ID edges */
+		NODE0x93aeb40 [label="main::
+  %20 = add nsw i32 %19, 32" style=filled fillcolor=white]
+		/* -- node 0x93a5928
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		NODE0x93aeb40 -> NODE0x93aec70 [color="black" rank=max style="dashed"]
+		/* CD edges */
+		/* ID edges */
+		NODE0x93aec70 [label="main::
+  %21 = trunc i32 %20 to i8" style=filled fillcolor=white]
+		/* -- node 0x93a595c
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		NODE0x93aec70 -> NODE0x93aeda0 [color="black" rank=max style="dashed"]
+		/* CD edges */
+		/* ID edges */
+		NODE0x93acfc0 [label="main::
+  %3 = alloca i8, align 1" style=filled fillcolor=white]
+		/* -- node 0x93a599c
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		NODE0x93acfc0 -> NODE0x93aeda0 [color="black" rank=max style="dashed"]
+		NODE0x93acfc0 -> NODE0x93aeed0 [color="black" rank=max style="dashed"]
+		/* CD edges */
+		/* ID edges */
+		NODE0x93aea10 [label="main::
+  %19 = srem i32 %18, 64" style=filled fillcolor=white]
+		/* -- node 0x93a59e0
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		NODE0x93aea10 -> NODE0x93aeb40 [color="black" rank=max style="dashed"]
+		/* CD edges */
+		/* ID edges */
+		NODE0x93aeda0 [label="main::
+  store i8 %21, i8* %3, align 1" style=filled fillcolor=white]
+		/* -- node 0x93a5c78
+		 * ------------------------------------------- */
+		/* DD edges */
+		NODE0x93aeda0 -> NODE0x93aeed0 [color="cyan4" rank=max]
+		/* USE edges */
+		/* CD edges */
+		/* ID edges */
+		NODE0x93aeed0 [label="main::
+  %22 = load i8, i8* %3, align 1" style=filled fillcolor=white]
+		/* -- node 0x93a5cac
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		NODE0x93aeed0 -> NODE0x93af000 [color="black" rank=max style="dashed"]
+		/* CD edges */
+		/* ID edges */
+		NODE0x93ad0f0 [label="main::
+  %4 = alloca i32, align 4" style=filled fillcolor=white]
+		/* -- node 0x93a613c
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		NODE0x93ad0f0 -> NODE0x93ad498 [color="black" rank=max style="dashed"]
+		NODE0x93ad0f0 -> NODE0x93ad970 [color="black" rank=max style="dashed"]
+		NODE0x93ad0f0 -> NODE0x93ade30 [color="black" rank=max style="dashed"]
+		NODE0x93ad0f0 -> NODE0x93ae7b0 [color="black" rank=max style="dashed"]
+		/* CD edges */
+		/* ID edges */
+		NODE0x93ad220 [label="main::
+  store i32 0, i32* %1, align 4" style=filled fillcolor=white]
+		/* -- node 0x93a6180
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		/* CD edges */
+		/* ID edges */
+		NODE0x93ad350 [label="main::
+  %5 = call i32 (i8*, ...) @print" style=filled fillcolor=white]
+		/* -- node 0x93a61c0
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		/* CD edges */
+		/* ID edges */
+		NODE0x93ad498 [label="main::
+  store i32 0, i32* %4, align 4" style=filled fillcolor=white]
+		/* -- node 0x93a6208
+		 * ------------------------------------------- */
+		/* DD edges */
+		NODE0x93ad498 -> NODE0x93ad970 [color="cyan4" rank=max]
+		NODE0x93ad498 -> NODE0x93ae7b0 [color="cyan4" rank=max]
+		/* USE edges */
+		/* CD edges */
+		/* ID edges */
+		NODE0x93ad5c8 [label="main::
+  br label %6" style=filled fillcolor=white]
+		/* -- node 0x93a623c
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		/* CD edges */
+		/* ID edges */
+		NODE0x93ad828 [label="main::
+  %7 = call i32 (i8*, ...) @__iso" style=filled fillcolor=white]
+		/* -- node 0x93a6284
+		 * ------------------------------------------- */
+		/* DD edges */
+		NODE0x93ad828 -> NODE0x93ad828 [color="cyan4" rank=max]
+		NODE0x93ad828 -> NODE0x93adaa0 [color="cyan4" rank=max]
+		NODE0x93ad828 -> NODE0x93ae1c0 [color="cyan4" rank=max]
+		/* USE edges */
+		/* CD edges */
+		/* ID edges */
+		NODE0x93ad970 [label="main::
+  %8 = load i32, i32* %4, align 4" style=filled fillcolor=white]
+		/* -- node 0x93a62bc
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		NODE0x93ad970 -> NODE0x93add00 [color="black" rank=max style="dashed"]
+		/* CD edges */
+		/* ID edges */
+		NODE0x93adaa0 [label="main::
+  %9 = load i8, i8* %2, align 1" style=filled fillcolor=white]
+		/* -- node 0x93a62f4
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		NODE0x93adaa0 -> NODE0x93adbd0 [color="black" rank=max style="dashed"]
+		/* CD edges */
+		/* ID edges */
+		NODE0x93adbd0 [label="main::
+  %10 = sext i8 %9 to i32" style=filled fillcolor=white]
+		/* -- node 0x93a632c
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		NODE0x93adbd0 -> NODE0x93add00 [color="black" rank=max style="dashed"]
+		/* CD edges */
+		/* ID edges */
+		NODE0x93add00 [label="main::
+  %11 = add nsw i32 %8, %10" style=filled fillcolor=white]
+		/* -- node 0x93a6368
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		NODE0x93add00 -> NODE0x93ade30 [color="black" rank=max style="dashed"]
+		/* CD edges */
+		/* ID edges */
+		NODE0x93ade30 [label="main::
+  store i32 %11, i32* %4, align 4" style=filled fillcolor=white]
+		/* -- node 0x93a63a8
+		 * ------------------------------------------- */
+		/* DD edges */
+		NODE0x93ade30 -> NODE0x93ad970 [color="cyan4" rank=max]
+		NODE0x93ade30 -> NODE0x93ae7b0 [color="cyan4" rank=max]
+		/* USE edges */
+		/* CD edges */
+		/* ID edges */
+		NODE0x93adf60 [label="main::
+  br label %12" style=filled fillcolor=white]
+		/* -- node 0x93a63dc
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		/* CD edges */
+		/* ID edges */
+		NODE0x93ae1c0 [label="main::
+  %13 = load i8, i8* %2, align 1" style=filled fillcolor=white]
+		/* -- node 0x93a640c
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		NODE0x93ae1c0 -> NODE0x93ae2f0 [color="black" rank=max style="dashed"]
+		/* CD edges */
+		/* ID edges */
+		NODE0x93ae2f0 [label="main::
+  %14 = sext i8 %13 to i32" style=filled fillcolor=white]
+		/* -- node 0x93a6444
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		NODE0x93ae2f0 -> NODE0x93ae420 [color="black" rank=max style="dashed"]
+		/* CD edges */
+		/* ID edges */
+		NODE0x93ae420 [label="main::
+  %15 = icmp ne i32 %14, 10" style=filled fillcolor=white]
+		/* -- node 0x93a6480
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		NODE0x93ae420 -> NODE0x93ae550 [color="black" rank=max style="dashed"]
+		/* CD edges */
+		/* ID edges */
+		NODE0x93ae550 [label="main::
+  br i1 %15, label %6, label %16" style=filled fillcolor=white]
+		/* -- node 0x93a64cc
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		/* CD edges */
+		/* ID edges */
+		NODE0x93ae7b0 [label="main::
+  %17 = load i32, i32* %4, align 4" style=filled fillcolor=white]
+		/* -- node 0x93a64fc
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		NODE0x93ae7b0 -> NODE0x93ae8e0 [color="black" rank=max style="dashed"]
+		/* CD edges */
+		/* ID edges */
+		NODE0x93ae8e0 [label="main::
+  %18 = sub nsw i32 %17, 10" style=filled fillcolor=white]
+		/* -- node 0x93a6540
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		NODE0x93ae8e0 -> NODE0x93aea10 [color="black" rank=max style="dashed"]
+		/* CD edges */
+		/* ID edges */
+		NODE0x93af000 [label="main::
+  %23 = sext i8 %22 to i32" style=filled fillcolor=white]
+		/* -- node 0x93a6574
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		NODE0x93af000 -> NODE0x93af130 [color="black" rank=max style="dashed"]
+		/* CD edges */
+		/* ID edges */
+		NODE0x93af130 [label="main::
+  %24 = call i32 (i8*, ...) @prin" style=filled fillcolor=white]
+		/* -- node 0x93a65bc
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		/* CD edges */
+		/* ID edges */
+		NODE0x93af278 [label="main::
+  ret i32 0" style=filled fillcolor=white]
+		/* -- node 0x93a65f4
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		/* CD edges */
+		NODE0x93af278 -> NODE0x93af3a8 [color="blue"]
+		/* ID edges */
+		NODE0x93acea0 [label="main::
+  %2 = alloca i8, align 1" style=filled fillcolor=white]
+		/* -- node 0x93a81a4
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		NODE0x93acea0 -> NODE0x93ad828 [color="black" rank=max style="dashed"]
+		NODE0x93acea0 -> NODE0x93adaa0 [color="black" rank=max style="dashed"]
+		NODE0x93acea0 -> NODE0x93ae1c0 [color="black" rank=max style="dashed"]
+		/* CD edges */
+		/* ID edges */
+		NODE0x93aca30 [label="GLOB @.str.2 = private unnamed_addr constant [17 x i8] c\"Check sum is %c\0A\00\", align 1" style=filled fillcolor=white]
+		/* -- node 0x93a1a94
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		/* CD edges */
+		/* ID edges */
+		NODE0x93ac830 [label="GLOB @.str = private unnamed_addr constant [6" style=filled fillcolor=white]
+		/* -- node 0x93a1b3c
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		/* CD edges */
+		/* ID edges */
+		NODE0x93acb50 [label="GLOB FUNC main" style=filled fillcolor=white]
+		/* -- node 0x93a1b94
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		/* CD edges */
+		NODE0x93acb50 -> NODE0x93acd80 [color="blue"]
+		/* ID edges */
+		NODE0x93ac930 [label="GLOB @.str.1 = private unnamed_addr constant [3 x i8] c\"%c\00\", align 1" style=filled fillcolor=white]
+		/* -- node 0x93a1fbc
+		 * ------------------------------------------- */
+		/* DD edges */
+		/* USE edges */
+		/* CD edges */
+		/* ID edges */
+	}
+}
