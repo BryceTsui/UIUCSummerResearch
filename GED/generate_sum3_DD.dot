@@ -1,0 +1,121 @@
+digraph "G" {
+NODE0x87676b8 [fillcolor=white, label="main::
+  %6 = call i32 (i8*, ...) @__iso", style=filled];
+NODE0x8767800 [fillcolor=white, label="main::
+  store i32 0, i32* %4, align 4", style=filled];
+NODE0x8767930 [fillcolor=white, label="main::
+  store i32 1, i32* %3, align 4", style=filled];
+NODE0x8767cc0 [fillcolor=white, label="main::
+  %8 = load i32, i32* %3, align 4", style=filled];
+NODE0x8767df0 [fillcolor=white, label="main::
+  %9 = load i32, i32* %2, align 4", style=filled];
+NODE0x876ea58 [fillcolor=white, label="IN ARG main::
+  %3 = alloca i32, align 4", style=filled];
+NODE0x876eb58 [fillcolor=white, label="OUT ARG main::
+  %3 = alloca i32, align 4", style=filled];
+NODE0x876e758 [fillcolor=white, label="IN ARG main::
+  %4 = alloca i32, align 4", style=filled];
+NODE0x876e858 [fillcolor=white, label="OUT ARG main::
+  %4 = alloca i32, align 4", style=filled];
+NODE0x876f000 [fillcolor=white, label="main::
+  %13 = load i32, i32* %4, align 4", style=filled];
+NODE0x876f278 [fillcolor=white, label="main::
+  %15 = load i32, i32* %3, align 4", style=filled];
+NODE0x8768840 [fillcolor=white, label="[f] IN ARG i32* %0", style=filled];
+NODE0x8768940 [fillcolor=white, label="[f] OUT ARG i32* %0", style=filled];
+NODE0x8768ae0 [fillcolor=white, label="[f] IN ARG i32* %1", style=filled];
+NODE0x8768be0 [fillcolor=white, label="[f] OUT ARG i32* %1", style=filled];
+NODE0x87690f0 [fillcolor=white, label="A::
+  store i32* %0, i32** %3, align 4", style=filled];
+NODE0x8769220 [fillcolor=white, label="A::
+  store i32* %1, i32** %4, align 4", style=filled];
+NODE0x8769350 [fillcolor=white, label="A::
+  %5 = load i32*, i32** %3, align 4", style=filled];
+NODE0x8769480 [fillcolor=white, label="A::
+  %6 = load i32*, i32** %4, align 4", style=filled];
+NODE0x876b580 [fillcolor=white, label="IN ARG A::
+  %5 = load i32*, i32** %3, align 4", style=filled];
+NODE0x876b680 [fillcolor=white, label="OUT ARG A::
+  %5 = load i32*, i32** %3, align 4", style=filled];
+NODE0x876b880 [fillcolor=white, label="IN ARG A::
+  %6 = load i32*, i32** %4, align 4", style=filled];
+NODE0x876b980 [fillcolor=white, label="OUT ARG A::
+  %6 = load i32*, i32** %4, align 4", style=filled];
+NODE0x876bbc8 [fillcolor=white, label="A::
+  %7 = load i32*, i32** %4, align 4", style=filled];
+NODE0x876dd30 [fillcolor=white, label="IN ARG A::
+  %7 = load i32*, i32** %4, align 4", style=filled];
+NODE0x876de30 [fillcolor=white, label="OUT ARG A::
+  %7 = load i32*, i32** %4, align 4", style=filled];
+NODE0x8769b40 [fillcolor=white, label="[f] IN ARG i32* %0", style=filled];
+NODE0x8769c40 [fillcolor=white, label="[f] OUT ARG i32* %0", style=filled];
+NODE0x8769de0 [fillcolor=white, label="[f] IN ARG i32* %1", style=filled];
+NODE0x8769ee0 [fillcolor=white, label="[f] OUT ARG i32* %1", style=filled];
+NODE0x876a3f0 [fillcolor=white, label="add::
+  store i32* %0, i32** %3, align 4", style=filled];
+NODE0x876a520 [fillcolor=white, label="add::
+  store i32* %1, i32** %4, align 4", style=filled];
+NODE0x876a650 [fillcolor=white, label="add::
+  %5 = load i32*, i32** %3, align 4", style=filled];
+NODE0x876a780 [fillcolor=white, label="add::
+  %6 = load i32, i32* %5, align 4", style=filled];
+NODE0x876a8b0 [fillcolor=white, label="add::
+  %7 = load i32*, i32** %4, align 4", style=filled];
+NODE0x876a9e0 [fillcolor=white, label="add::
+  %8 = load i32, i32* %7, align 4", style=filled];
+NODE0x876ac40 [fillcolor=white, label="add::
+  %10 = load i32*, i32** %3, align 4", style=filled];
+NODE0x876ad70 [fillcolor=white, label="add::
+  store i32 %9, i32* %10, align 4", style=filled];
+NODE0x876c288 [fillcolor=white, label="[f] IN ARG i32* %0", style=filled];
+NODE0x876c388 [fillcolor=white, label="[f] OUT ARG i32* %0", style=filled];
+NODE0x876c898 [fillcolor=white, label="inc::
+  store i32* %0, i32** %2, align 4", style=filled];
+NODE0x876c9c8 [fillcolor=white, label="inc::
+  store i32 1, i32* %3, align 4", style=filled];
+NODE0x876caf8 [fillcolor=white, label="inc::
+  %4 = load i32*, i32** %2, align 4", style=filled];
+NODE0x876d308 [fillcolor=white, label="IN ARG inc::
+  %3 = alloca i32, align 4", style=filled];
+NODE0x876d408 [fillcolor=white, label="OUT ARG inc::
+  %3 = alloca i32, align 4", style=filled];
+NODE0x876d008 [fillcolor=white, label="IN ARG inc::
+  %4 = load i32*, i32** %2, align 4", style=filled];
+NODE0x876d108 [fillcolor=white, label="OUT ARG inc::
+  %4 = load i32*, i32** %2, align 4", style=filled];
+NODE0x87676b8 -> NODE0x87676b8  [color="cyan4", key=0, rank=max];
+NODE0x87676b8 -> NODE0x8767df0  [color="cyan4", key=0, rank=max];
+NODE0x8767800 -> NODE0x876a780  [color="cyan4", key=0, rank=max];
+NODE0x8767800 -> NODE0x876f000  [color="cyan4", key=0, rank=max];
+NODE0x8767930 -> NODE0x8767cc0  [color="cyan4", key=0, rank=max];
+NODE0x8767930 -> NODE0x876a780  [color="cyan4", key=0, rank=max];
+NODE0x8767930 -> NODE0x876a9e0  [color="cyan4", key=0, rank=max];
+NODE0x8767930 -> NODE0x876f278  [color="cyan4", key=0, rank=max];
+NODE0x876ea58 -> NODE0x8768ae0  [color="cyan4", key=0, rank=max];
+NODE0x876e758 -> NODE0x8768840  [color="cyan4", key=0, rank=max];
+NODE0x8768940 -> NODE0x876e858  [color="cyan4", key=0, rank=max];
+NODE0x8768be0 -> NODE0x876eb58  [color="cyan4", key=0, rank=max];
+NODE0x87690f0 -> NODE0x8769350  [color="cyan4", key=0, rank=max];
+NODE0x8769220 -> NODE0x8769480  [color="cyan4", key=0, rank=max];
+NODE0x8769220 -> NODE0x876bbc8  [color="cyan4", key=0, rank=max];
+NODE0x876b580 -> NODE0x8769b40  [color="cyan4", key=0, rank=max];
+NODE0x876b880 -> NODE0x8769de0  [color="cyan4", key=0, rank=max];
+NODE0x876dd30 -> NODE0x876c288  [color="cyan4", key=0, rank=max];
+NODE0x8769c40 -> NODE0x876b680  [color="cyan4", key=0, rank=max];
+NODE0x8769c40 -> NODE0x876d108  [color="cyan4", key=0, rank=max];
+NODE0x8769ee0 -> NODE0x876b980  [color="cyan4", key=0, rank=max];
+NODE0x8769ee0 -> NODE0x876d408  [color="cyan4", key=0, rank=max];
+NODE0x876a3f0 -> NODE0x876a650  [color="cyan4", key=0, rank=max];
+NODE0x876a3f0 -> NODE0x876ac40  [color="cyan4", key=0, rank=max];
+NODE0x876a520 -> NODE0x876a8b0  [color="cyan4", key=0, rank=max];
+NODE0x876ad70 -> NODE0x8767cc0  [color="cyan4", key=0, rank=max];
+NODE0x876ad70 -> NODE0x876a780  [color="cyan4", key=0, rank=max];
+NODE0x876ad70 -> NODE0x876a9e0  [color="cyan4", key=0, rank=max];
+NODE0x876ad70 -> NODE0x876f000  [color="cyan4", key=0, rank=max];
+NODE0x876ad70 -> NODE0x876f278  [color="cyan4", key=0, rank=max];
+NODE0x876c388 -> NODE0x876de30  [color="cyan4", key=0, rank=max];
+NODE0x876c898 -> NODE0x876caf8  [color="cyan4", key=0, rank=max];
+NODE0x876c9c8 -> NODE0x876a9e0  [color="cyan4", key=0, rank=max];
+NODE0x876d308 -> NODE0x8769de0  [color="cyan4", key=0, rank=max];
+NODE0x876d008 -> NODE0x8769b40  [color="cyan4", key=0, rank=max];
+}

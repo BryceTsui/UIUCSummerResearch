@@ -1,0 +1,8 @@
+digraph "DependenceGraph" {
+compound=true;
+label="Graph 0x8745c78 has 21 nodes\n
+	dd edges color: cyan4
+	use edges color: black, dashed
+	cd edges color: blue
+	cfg edges color: gray";
+}
