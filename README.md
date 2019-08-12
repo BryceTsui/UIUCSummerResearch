@@ -7,7 +7,7 @@
  * Python 3(recommend python version > 3.5)
  * ([networkx](https://github.com/networkx/networkx) (if not : `(sudo) pip(3) install networkx`)
  * ([pydot](https://github.com/pydot/pydot) (if not:`(sudo) pip(3) install pydot`)
- * ([dg](https://github.com/mchalupa/dg) 
+ * ([dg](https://github.com/mchalupa/dg))
  
  
 ## Installation
