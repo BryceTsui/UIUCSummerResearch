@@ -1,4 +1,8 @@
+import json
 
+"""
+This program is used to generate csv of the result, you may not use this program.
+"""
 if __name__ == '__main__':
 
     # import methods from the GED.py
@@ -25,7 +29,7 @@ if __name__ == '__main__':
 
 
     n = 4 # 1=g ,2 = CFG 3= DD, 4 = CD
-    file = open('data-CD-withLabel.txt', 'r')
+    file = open('data-CD.txt', 'r')
     data = file.read()
     file.close()
 
@@ -44,7 +48,7 @@ if __name__ == '__main__':
         if(len(line) >=2):
             values_arr = line.split(',')
             print(len(values_arr))
-            matrix.append([float(values_arr[j])/max((len(graphs_list[i][n].nodes)+len(graphs_list[i][n].edges)),(len(graphs_list[j][n].nodes)+len(graphs_list[j][n].edges))) for j in range(0,len(values_arr))])
+            matrix.append([1-float(values_arr[j])/max((len(graphs_list[i][n].nodes)+len(graphs_list[i][n].edges)),(len(graphs_list[j][n].nodes)+len(graphs_list[j][n].edges))) for j in range(0,len(values_arr))])
 
             i = i+1
 
@@ -52,35 +56,35 @@ if __name__ == '__main__':
     print(len(matrix))
     print(len(matrix[0]))
 
-    max_i =0
-    max_j = 0
-    max = 0.0
-    f = open('csv-CD-withLabel.csv','w')
+    # max_i =0
+    # max_j = 0
+    # max = 0.0
+    # f = open('CFG-withLabel.csv','w')
+    #
+    # f.write('file1/file2,')
+    # for file_name in dot_files:
+    #     f.write(file_name)
+    #     f.write(',')
+    # f.write('\n')
+    # for i in range(0,69):
+    #     f.write(dot_files[i])
+    #     f.write(',')
+    #     for j in range(0,69):
+    #         f.write(str(matrix[i][j]))
+    #         if j != 68:
+    #             f.write(',')
+    #     f.write('\n')
+    # f.close()
 
-    f.write('file1/file2,')
-    for file_name in dot_files:
-        f.write(file_name)
-        f.write(',')
-    f.write('\n')
-    for i in range(0,69):
-        f.write(dot_files[i])
-        f.write(',')
-        for j in range(0,69):
-            f.write(str(matrix[i][j]))
-            if j != 68:
-                f.write(',')
-        f.write('\n')
-    f.close()
-
-
-
-    print(max)
-    print(dot_files[max_i])
-    print(dot_files[max_j])
+    with open('data-simi-CD-withoutLabel.json','w') as f:
+        f.write(json.dumps(matrix))
 
 
 
 
+    # print(max)
+    # print(dot_files[max_i])
+    # print(dot_files[max_j])
 
 
 

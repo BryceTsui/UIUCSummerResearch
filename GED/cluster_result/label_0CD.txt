@@ -1,0 +1,100 @@
+G:\UIUC\data\iterate\problems\checksum\08c7ea4ac39aa6a5ab206393bb4412de9d2c365ecdda9c1b391be963c1811014ed23d2722d7433b8e8a95305eee314d39da4950f31e01f9147f90af91a5c433a\015:
+/**/
+
+#include <stdio.h>
+#include <string.h>
+#define length 1000000
+
+int main(void)
+{
+	char string[length];
+	char checksumchar;
+	int i, stringlength, checksum_summation;
+
+	printf("Enter an abitrarily long string, ending with carriage return > ");
+	//**/
+	
+        gets(string);
+
+	stringlength=strlen(string);
+	
+	checksum_summation=0;
+
+	for(i=0; i < stringlength; i++)
+		{
+		checksum_summation+=(int)string[i];
+		}
+	checksum_summation %= 64;
+	checksum_summation += 32;
+	checksumchar = (char)checksum_summation;
+	printf("Check sum is %c\n",checksumchar);
+
+	return 0;
+}
+G:\UIUC\data\iterate\problems\checksum\75c98d3d90ca9a022bbf45421aa04a07f37da8a126811259bc4873e9458baab0a4863fa6664e5735c60172b34a16ed5acef892635f4f16e6d5737fb3685d0356\005:
+/**/
+#include <stdio.h>
+#include <math.h>
+int main (){
+
+char entry, checksum2;
+int checksum = 0;
+
+printf("Enter an abitrarily long string, ending with carriage return > ");
+
+while (1) {
+	entry=getchar();
+	if (entry == '\n'){
+break;}
+	else {
+	checksum += entry;}
+}
+
+checksum = checksum%64;
+checksum = checksum+32;
+checksum2 = (char)(checksum);
+printf("Check sum is %c\n",checksum2);
+
+return 0;
+}
+G:\UIUC\data\iterate\problems\checksum\e9c74e27a17310a52842f7099c3e5c126298e1a08f2b841169cd5f155e6f2970d14d0314da1f6314ed970de1d20be306a60f0ce341d1c4d01300cc6efad7ab9b\001:
+/**/
+
+#include <stdio.h>
+#include <math.h>
+
+int main ()
+{
+    char orig; //
+    int code, //
+        accum; //
+    char checksum; //
+
+    printf("Enter an abitrarily long string, ending with carriage return > ");
+
+    accum = 0;
+    checksum = 0;
+    code = 0;
+    orig = ' ';
+
+    do
+    {
+        scanf("%c", &orig);
+        if(orig != '\n')
+        {
+            code = (int)orig;
+            accum += code;
+        }
+    }
+    while(orig != '\n');
+
+    checksum = (char)((accum % 64) + 32);
+   
+    //
+
+    //
+
+    printf("Check sum is %c\n", checksum);
+
+    return 0;
+}

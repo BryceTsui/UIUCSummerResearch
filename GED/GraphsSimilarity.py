@@ -193,7 +193,7 @@ def getEditDistanceWithoutLabel(graph1,graph2):
     """
     all = 0;
     n = 0;
-    for dis in nx.algorithms.similarity.optimize_graph_edit_distance(graph1,graph2):  # params contain edge_match,but it has considered the edge but ignore the attributes in edges, in our project we can ignore the attributes in edges
+    for dis in nx.algorithms.similarity.optimize_graph_edit_distance(graph1,graph2,node_match=lambda a,b:True):  # params contain edge_match,but it has considered the edge but ignore the attributes in edges, in our project we can ignore the attributes in edges
         all = all +dis
         n = n+1
 
@@ -359,8 +359,8 @@ def get_similarity(cfile_path1, cfile_path2,dg_tools_path,label=False):
         return getEditDistanceWithLabel(whole_graph1, whole_graph2)/getMaxLen(whole_graph1,whole_graph2), getEditDistanceWithLabel(CFG1,CFG2)/getMaxLen(CFG1,CFG2), getEditDistanceWithLabel(DD1, DD2)/getMaxLen(DD1,DD2), getEditDistanceWithLabel(CD1, CD2)/getMaxLen(CD1,CD2)
 
 
+
 #test the method get_similarity()
 if __name__ == '__main__':
-
     print(get_similarity('G:\\UIUC\GED\\testData\checksum1.c','G:\\UIUC\GED\\testData\checksum2.c','G:\\UIUC\DDCD\dg\\build\\tools'))
 

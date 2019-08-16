@@ -225,7 +225,7 @@ if __name__ == '__main__':
                 # print(len(graphs1[4].edges))
                 # print(len(graphs2[4].edges))
                 minv = 0;
-                for dis in nx.algorithms.similarity.optimize_graph_edit_distance(graphs1[3], graphs2[3],node_match=__node_match__):
+                for dis in nx.algorithms.similarity.optimize_graph_edit_distance(graphs1[2], graphs2[2],node_match=lambda a,b:True):
                     print("#",end="")
                     minv = dis
                 print()
@@ -253,10 +253,10 @@ if __name__ == '__main__':
     print("time cost:")
     print(time.clock()-start)
 
-    # import json
-    # file = open('data-CD-withLabel.txt', 'w')
-    # file.write(json.dumps(distances));
-    # file.close()
+    import json
+    file = open('data-CFG--withoutLabel-v2.txt', 'w')
+    file.write(json.dumps(distances));
+    file.close()
 
 
 

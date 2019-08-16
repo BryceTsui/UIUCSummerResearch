@@ -1,0 +1,56 @@
+G:\UIUC\data\iterate\problems\checksum\3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f\003:
+/**/
+
+#include <stdio.h>
+
+int main () {
+
+	char n;		//**/
+	int total = 0;	//**/
+
+	printf("Enter an abitrarily long string, ending with carriage return > ");
+
+	while (n != '\n') {
+
+		n = getchar();
+		if (n == '\n') {
+			break;
+			}
+		else {
+			total += (int)n;
+		}
+
+	}
+
+	total = (total % 64) + 32;
+	char output = (char)total;
+
+	printf("Check sum is %c\n", output);
+	return 0;
+}
+
+
+G:\UIUC\data\iterate\problems\checksum\98d873cde39437ae581e6b61ce30ca54634c9c1517b46a0f2774cb12db474b5a37759281b19283c60dbcfa44ac3e05d474a896310f64e8533603b1db73457494\005:
+//
+
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+  int add, sum, final;
+  sum = 0;
+  printf("Enter an abitrarily long string, ending with carriage return > ");
+  while(add != '\n')
+  {
+    add = getchar(); 
+    if(add != '\n') 
+      sum = add + sum; 
+  }
+  //
+  final = (sum % 64) + 32;
+  printf("Check sum is ");
+  putchar(final);
+  printf("\n");
+  return 0;
+}
