@@ -1,0 +1,42 @@
+G:\UIUC\data\iterate\problems\checksum\3214e9b00d4375825f24621cd10fc694ef14afa5a94ce0db9dac20877a21ea2d4b3594007d52464e0cea55e5ed3bb188712a67d8d002c1f28917057057120605\001:
+/**/
+
+
+#include<stdio.h>
+#include<string.h>
+
+int
+	main(void)
+{
+	int	remainder, intsum = 0,i;
+	char	userinput[2000];
+
+
+	printf("Enter an abitrarily long string, ending with carriage return > ");
+	
+	scanf("%s", &userinput);	//**/
+	
+	
+	for (i = 0; userinput[i]!= 0 ; i++)	//**/
+	{
+	
+		intsum = intsum + userinput[i]; //**/
+	}
+
+
+
+
+
+
+	
+	remainder = intsum % 64;
+	remainder = remainder + 32;
+	printf("Check sum is %c\n", remainder);
+
+	return(0);
+
+}
+
+
+
+

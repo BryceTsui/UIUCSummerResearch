@@ -1,0 +1,94 @@
+G:\UIUC\data\iterate\problems\checksum\97f6b15278788d90f6a0159ac65668f63f182fadf165e78bfecd7750de89f8611759f8d8206b3505407f7de14d124db7b0309a53e222c538c4dedadc6fa24fe6\009:
+/**/
+#include <stdio.h>
+#include <math.h>
+int main(){
+int a=0;
+char c;
+int sum; 
+printf("Enter an abitrarily long string, ending with carriage return > ");
+while (1) {
+if (c == '\n')
+	break;
+else{
+	c = getchar();
+	a += (int) c;
+	}}
+sum = a % 64 + 22;
+sum = (char)sum;
+printf("Check sum is %c\n", sum);
+return 0;}
+
+//**/
+G:\UIUC\data\iterate\problems\checksum\98d873cde39437ae581e6b61ce30ca54634c9c1517b46a0f2774cb12db474b5a37759281b19283c60dbcfa44ac3e05d474a896310f64e8533603b1db73457494\000:
+//
+
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+  int add, sum;
+  sum = 0;
+  printf("Enter an abitrarily long string, ending with carriage return > ");
+  while(add != '\n')
+  {
+    add = getchar(); 
+    if(add != '\n') 
+      sum = add + sum; 
+  }
+  //
+  sum = sum - 32;
+  printf("Check sum is ");
+  putchar(sum);
+  printf("\n");
+  return 0;
+}
+G:\UIUC\data\iterate\problems\checksum\98d873cde39437ae581e6b61ce30ca54634c9c1517b46a0f2774cb12db474b5a37759281b19283c60dbcfa44ac3e05d474a896310f64e8533603b1db73457494\001:
+//
+
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+  int add, sum;
+  sum = 0;
+  printf("Enter an abitrarily long string, ending with carriage return > ");
+  while(add != '\n')
+  {
+    add = getchar(); 
+    if(add != '\n') 
+      sum = add + sum; 
+  }
+  //
+  sum = sum - 32;
+  printf("Check sum is ");
+  putchar(sum);
+  printf("\n");
+  return 0;
+}
+G:\UIUC\data\iterate\problems\checksum\98d873cde39437ae581e6b61ce30ca54634c9c1517b46a0f2774cb12db474b5a37759281b19283c60dbcfa44ac3e05d474a896310f64e8533603b1db73457494\002:
+//
+
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+  int add, sum;
+  sum = 0;
+  printf("Enter an abitrarily long string, ending with carriage return > ");
+  while(add != '\n')
+  {
+    add = getchar(); 
+    if(add != '\n') 
+      sum = add + sum; 
+  }
+  //
+  sum = sum - 32;
+  printf("Check sum is ");
+  putchar(sum);
+  printf("\n");
+  return 0;
+}

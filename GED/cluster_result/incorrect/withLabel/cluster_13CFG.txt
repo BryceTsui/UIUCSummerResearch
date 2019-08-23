@@ -1,0 +1,73 @@
+G:\UIUC\data\iterate\problems\checksum\30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71\007:
+/**/
+
+
+#include <stdio.h>
+ 
+ int main ()
+ {
+ while(1)
+ {
+ char str[10000] = {0};
+ int num;
+ char sum; 
+ 
+ printf("Enter an abitrarily long string, ending with carriage return > "); 
+ scanf("%s", str); 
+ 
+ int i;
+ for (i = 0; i<10000; i++)
+ { 
+ num+=str[i];
+ }
+ sum = num;
+ printf("Check sum is %c\n", sum);
+ 
+ return(0);
+ } 
+ }
+G:\UIUC\data\iterate\problems\checksum\659a7300715ba902aeff0650acdfd6e5490cb33ba64d3688555102b2f3f78715368c38fede9c8bb9d23d8041c3db5332ca2877b26bd53f165ff52ceec2022604\002:
+//
+#include <stdio.h>
+#define length 1000000
+
+int main(){
+  char string[length];
+  int count, i, count2;
+  printf("Enter an abitrarily long string, ending with carriage return > ");
+  scanf("%s", string);
+  count = 0; count2 = 0;
+  for(i=0; i < length; ++i){
+    count += (int)string[i];
+    if(count2==count)
+      break;
+    count2 = count;
+  }
+  count = count%64+' ';
+  printf("Check sum is %c\n", count);
+  return 0;
+}
+G:\UIUC\data\iterate\problems\checksum\cb243bebea400595cc274d1246f3307c507ba6a0e891f6e318cde2b80a72de40dab19eb7f76d3b6573a08e446bce6fb4435cdb016ae6489973b855a9bddd3b11\000:
+/**/
+#include <stdio.h>
+
+int main(){
+	int num;
+	char i;
+	char final;
+	printf("Enter an abitrarily long string, ending with carriage return > ");
+	scanf("%c", &i);
+	num=i;
+	while(i != '\n'){
+		if (num != i && i != '\n'){
+			num+=i;
+		}	
+	scanf("%c", &i);
+		
+	}
+		
+	final=num%64;		
+	final+= ' ';	
+	printf("Check sum is %c\n", final);
+	return 0;
+}

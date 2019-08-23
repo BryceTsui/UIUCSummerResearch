@@ -1,0 +1,127 @@
+G:\UIUC\data\iterate\problems\checksum\3214e9b00d4375825f24621cd10fc694ef14afa5a94ce0db9dac20877a21ea2d4b3594007d52464e0cea55e5ed3bb188712a67d8d002c1f28917057057120605\000:
+/**/
+
+
+#include<stdio.h>
+#include<string.h>
+
+int
+	main(void)
+{
+	int	remainder, intsum = 0,i;
+	char	userinput[2000];
+
+
+	printf("Enter an abitrarily long string, ending with carriage return > ");
+	
+	scanf("%s", &userinput);	//**/
+	
+	
+	for (i = 0; userinput[i]!= 0 ; i++)	//**/
+	{
+	
+		intsum = intsum + userinput[i]; //**/
+	}
+
+
+
+
+
+
+	
+	remainder = intsum % 64;
+	remainder = remainder + 32;
+	printf("Check sum is %c\n", remainder);
+
+	return(0);
+
+}
+
+
+
+
+G:\UIUC\data\iterate\problems\checksum\36d8008b13f6475ca8fa4553fea10042b0a6c623665065672051445c3464d61b29b47cb66321844a0264505a0f5ccf5aa6de072aa266b5a8b0cf13198380a389\004:
+/**/
+#include <stdio.h>
+#include <math.h>
+//**/
+
+int main() {
+ //
+  int sum;
+  char next;
+  sum=0;
+  printf("Enter an abitrarily long string, ending with carriage return > ");
+  while (next != '\n'){
+    scanf("%c", &next); 
+    sum = sum + next;
+   //
+   //
+ }  
+   //
+    sum=sum%64+22;
+   //
+    printf("Check sum is %c\n", sum);
+  
+  return 0;
+}
+
+G:\UIUC\data\iterate\problems\checksum\a0e3fdae706d528dcf146cbad986ba9fd834440a7b500e32f04fad073e955a46e481c713ee118432f3fd5dfa1a63fc1caefd648a56a389e40e6362dfd51625b0\002:
+//
+
+#include <stdio.h>
+#include <string.h>
+
+int main () {
+
+	int checksum, integer_value, sum = 0;
+	char value[1000];
+
+	printf("Enter an abitrarily long string, ending with carriage return > ");
+	scanf("%s", value);
+
+	int i;
+	int stringlength = strlen(value);
+	for (i = 0; i < stringlength; i++) {
+		integer_value = value[i];
+		sum = sum + integer_value;
+	}
+
+	checksum = (sum%64) + ' ';
+
+	printf("Check sum is %c \n", checksum);
+
+	return(0);
+
+}
+G:\UIUC\data\iterate\problems\checksum\d5cc7acaad4f01271abd8e5e7aecd52ad0fd82b2ea0c14dec8df934c2339b522dd2ed9549605a6405048bcbd89256e7ec818001899fecaa1ec147265783608f9\000:
+/**/
+
+#include<stdio.h>
+#include<math.h>
+
+
+int main (void)
+{
+	char a[4095];
+	int n =0, sum = 0, checksum;
+
+
+n=0;
+
+printf("Enter an arbitrarily long string, ending with carriage return > ");
+scanf("%s",a);
+
+while (a[n] != '\0')
+{
+	sum += (int)(a[n]);
+	n++;
+}
+
+checksum = (sum%64)+32;
+
+printf("Check sum is %c\n", (char)checksum);
+
+return(0);
+
+}

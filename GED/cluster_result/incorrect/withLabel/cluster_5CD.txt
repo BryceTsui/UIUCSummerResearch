@@ -1,0 +1,47 @@
+G:\UIUC\data\iterate\problems\checksum\2c1556672751734adf9a561fbf88767c32224fca14a81e9d9c719f18d0b21765038acc16ecd8377f74d4f43e8c844538161d869605e3516cf797d0a6a59f1f8e\004:
+
+#include <stdio.h>
+#include <math.h>
+
+int
+main (void)
+
+{
+  char character;
+  char remainder;
+  int sum;
+  printf("Enter an abitrarily long string, ending with carriage return > ");
+  sum = 0;
+while(character != '\n')
+{
+    scanf("%c", &character);
+    sum = sum + (int)character;
+    
+}
+ remainder = (char)((sum % 64) + 22);
+ printf("Check sum is %c\n", remainder);
+ return (0);
+}
+G:\UIUC\data\iterate\problems\checksum\b6fd408d589fd1cce4003e2cf601a028e3c01042c8a274ddc384a1524cab2014154932e9cb48312af6af394ee6bee85603cab8dad3c9617a49b9d14dc482b578\001:
+/**/
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+	char stuff;
+	int sum;
+	int count=0;
+	printf("Enter an abitrarily long string, ending with carriage return > ");
+	scanf("%c",&stuff);//**/
+	while(stuff>0) //**/
+	{
+	count++;
+	sum+=(int)stuff%10; //**/
+	stuff=stuff/10;//**/
+	printf("are you stupid %d\n", count);
+	printf("%d\n", (int) stuff);
+	}
+	sum=sum%64+ ' '; //**/
+	printf("Check sum is %c\n", (char) sum); //**/	
+	return 0;
+}
