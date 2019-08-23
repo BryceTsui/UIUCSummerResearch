@@ -11,9 +11,9 @@
  
  ## Project
  * GED -python programs to generate the similarity of two c files(mainly depends on the GED algorithm). You'd better just call the method ```get_similarity(cfile1,cfile2,dg_tools_path)``` in GraphSimilarity.py, while other programs is just for testing. 
-  classify - the matching result of incorrect programs to correct programs'clusters
-  correct - the clustering result of correct programs
-  incorrect - the clustering result of incorrect programs(it is not that important, you can ignore this dir currently)
+ (classify - the matching result of incorrect programs to correct programs'cluster
+ correct - the clustering result of correct programs
+ incorrect - the clustering result of incorrect programs(it is not that important, you can ignore this dir currently))
  * Work Report -My Reports about my work. You can ignore this dir. 
  * iterate -The data set used in our research. You can find checksum.c in each subdir like ```/iterate/problems/XXX/00X```
  
