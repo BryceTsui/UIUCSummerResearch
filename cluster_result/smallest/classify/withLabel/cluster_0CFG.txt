@@ -1,0 +1,297 @@
+G:\UIUC\IntroClass_Dot\IntroClass\smallest\6aaeaf2ffb623b5736c0c0b9e8a1a3b080e8aef14d963d899eb3e4073245ad1171e26fb2a64fb88db6e40aa59e894a55eac832e38d444755cb3b6ad10ba74c62\002/**/
+#include <stdio.h>
+#include <math.h>
+
+int main ()
+{
+	int int1, int2, int3, int4, tmp;
+	printf("Please enter 4 numbers separated by spaces > ");
+	scanf("%i%i%i%i", &int1, &int2, &int3, &int4);
+	tmp = int1;
+	if (tmp > int2)
+	tmp = int2;
+	if (tmp > int3)
+	tmp = int3;
+	if (tmp > int4)
+	tmp = int4;
+
+	printf("%i is the smallest\n", tmp);
+
+	return 0;
+}
+
+simi: 0.928571428571 path: G:\UIUC\IntroClass_Dot\IntroClass\smallest\6aaeaf2ffb623b5736c0c0b9e8a1a3b080e8aef14d963d899eb3e4073245ad1171e26fb2a64fb88db6e40aa59e894a55eac832e38d444755cb3b6ad10ba74c62\000/**/
+#include <stdio.h>
+#include <math.h>
+
+int main ()
+{
+	int int1, int2, int3, int4, tmp;
+	printf("Please enter 4 numbers separated by space > ");
+	scanf("%i%i%i%i", &int1, &int2, &int3, &int4);
+	tmp = int1;
+	if (int1 > int2)
+	tmp = int2;
+	else if (tmp > int3)
+	tmp = int3;
+	else if (tmp > int4)
+	tmp = int4;
+
+	printf("%i is the smallest\n", tmp);
+
+	return 0;
+}
+
+simi: 0.928571428571 path: G:\UIUC\IntroClass_Dot\IntroClass\smallest\6aaeaf2ffb623b5736c0c0b9e8a1a3b080e8aef14d963d899eb3e4073245ad1171e26fb2a64fb88db6e40aa59e894a55eac832e38d444755cb3b6ad10ba74c62\001/**/
+#include <stdio.h>
+#include <math.h>
+
+int main ()
+{
+	int int1, int2, int3, int4, tmp;
+	printf("Please enter 4 numbers separated by spaces > ");
+	scanf("%i%i%i%i", &int1, &int2, &int3, &int4);
+	tmp = int1;
+	if (int1 > int2)
+	tmp = int2;
+	else if (tmp > int3)
+	tmp = int3;
+	else if (tmp > int4)
+	tmp = int4;
+
+	printf("%i is the smallest\n", tmp);
+
+	return 0;
+}
+
+simi: 0.925925925926 path: G:\UIUC\IntroClass_Dot\IntroClass\smallest\769cd811312cbbb82c87033a78ac9584ad282550bcb9cc3ae8c4e3da44c288c1a5b3954e01998c3c0654ee6774ceab66e9fe5b135750905c917d2b0bb5fab98b\000//
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+	int x, y, z, t, a;
+	printf("Please enter 4 numbers separated by spaces > ");
+	scanf("%d %d %d %d", &x, &y, &z, &t);
+	if (x >= y)
+	a = y;
+	else
+	a = x;
+	if (y >= z)
+	a = z;
+	if (z >= t)
+	a = t;
+	printf("%d is the smallest\n", a);
+	return 0;
+}
+
+simi: 0.925925925926 path: G:\UIUC\IntroClass_Dot\IntroClass\smallest\769cd811312cbbb82c87033a78ac9584ad282550bcb9cc3ae8c4e3da44c288c1a5b3954e01998c3c0654ee6774ceab66e9fe5b135750905c917d2b0bb5fab98b\001//
+
+#include <stdio.h>
+
+int main() {
+	int x, y, z, t, a;
+	printf("Please enter 4 numbers separated by spaces > ");
+	scanf("%d %d %d %d", &x, &y, &z, &t);
+	if (x >= y)
+	a = y;
+	else
+	a = x;
+	if (y >= z)
+	a = z;
+	if (z >= t)
+	a = t;
+	printf("%d is the smallest\n", a);
+	return 0;
+}
+
+simi: 0.925925925926 path: G:\UIUC\IntroClass_Dot\IntroClass\smallest\769cd811312cbbb82c87033a78ac9584ad282550bcb9cc3ae8c4e3da44c288c1a5b3954e01998c3c0654ee6774ceab66e9fe5b135750905c917d2b0bb5fab98b\002//
+
+#include <stdio.h>
+
+int main() {
+	int x, y, z, t, a;
+	printf("Please enter 4 numbers separated by spaces > ");
+	scanf("%d %d %d %d", &x, &y, &z, &t);
+	if (x >= y)
+	a = y;
+	else
+	a = x;
+	if (y >= z)
+	a = z;
+	if (z >= t)
+	a = t;
+	printf("%d is the smallest \n", a);
+	return 0;
+}
+
+simi: 0.925925925926 path: G:\UIUC\IntroClass_Dot\IntroClass\smallest\769cd811312cbbb82c87033a78ac9584ad282550bcb9cc3ae8c4e3da44c288c1a5b3954e01998c3c0654ee6774ceab66e9fe5b135750905c917d2b0bb5fab98b\003//
+
+#include <stdio.h>
+
+int main(){
+int x, y, z, t, a;
+printf("Please enter 4 numbers separated by spaces > ");
+scanf("%d %d %d %d", &x, &y, &z, &t);
+if (x >= y)
+a = y;
+else
+a = x;
+if (y>=z)
+a = z;
+if (z>=t)
+a = t;
+printf("%d is the smallest\n", a);
+return 0;
+}
+
+simi: 0.925925925926 path: G:\UIUC\IntroClass_Dot\IntroClass\smallest\769cd811312cbbb82c87033a78ac9584ad282550bcb9cc3ae8c4e3da44c288c1a5b3954e01998c3c0654ee6774ceab66e9fe5b135750905c917d2b0bb5fab98b\004//
+
+#include <stdio.h>
+
+int main(){
+int a, b, c, d, x;
+printf("Please enter 4 numbers separated by spaces > ");
+scanf("%d %d %d %d", &a, &b, &c, &d);
+if (a>=b)
+x = b;
+else
+x = a;
+if (b>=c)
+x = c;
+if (c>=d)
+x = d;
+printf("%d is the smallest\n", a);
+return 0;
+}
+
+simi: 0.925925925926 path: G:\UIUC\IntroClass_Dot\IntroClass\smallest\769cd811312cbbb82c87033a78ac9584ad282550bcb9cc3ae8c4e3da44c288c1a5b3954e01998c3c0654ee6774ceab66e9fe5b135750905c917d2b0bb5fab98b\006//
+
+#include <stdio.h>
+
+int main(){
+int x, y, z, t, a;
+printf("Please enter 4 numbers separated by spaces > ");
+scanf("%d %d %d %d", &x, &y, &z, &t);
+if (x>=y)
+a = y;
+else
+a = x;
+if (y>=z)
+a = z;
+if (z>=t)
+a = t;
+printf("%d is the smallest\n", a);
+return 0;
+}
+
+simi: 0.925925925926 path: G:\UIUC\IntroClass_Dot\IntroClass\smallest\769cd811312cbbb82c87033a78ac9584ad282550bcb9cc3ae8c4e3da44c288c1a5b3954e01998c3c0654ee6774ceab66e9fe5b135750905c917d2b0bb5fab98b\007//
+
+#include <stdio.h>
+
+int main(){
+int x, y, z, t, a;
+printf("Please enter 4 numbers separated by spaces > ");
+scanf("%d %d %d %d", &x, &y, &z, &t);
+if (x>y)
+a = y;
+else
+a = x;
+if (y>z)
+a = z;
+if (z>t)
+a = t;
+printf("%d is the smallest\n", a);
+return 0;
+}
+
+simi: 0.925925925926 path: G:\UIUC\IntroClass_Dot\IntroClass\smallest\769cd811312cbbb82c87033a78ac9584ad282550bcb9cc3ae8c4e3da44c288c1a5b3954e01998c3c0654ee6774ceab66e9fe5b135750905c917d2b0bb5fab98b\009//
+
+#include <stdio.h>
+
+int main(){
+int a, b, c, d, x;
+printf("Please enter 4 numbers separated by spaces > ");
+scanf("%d %d %d %d", &a, &b, &c, &d);
+if (a>b)
+x = b;
+else
+x = a;
+if (b>c)
+x = c;
+if (c>d)
+x = d;
+printf("%d is the smallest\n", x);
+return 0;
+}
+
+simi: 0.925925925926 path: G:\UIUC\IntroClass_Dot\IntroClass\smallest\769cd811312cbbb82c87033a78ac9584ad282550bcb9cc3ae8c4e3da44c288c1a5b3954e01998c3c0654ee6774ceab66e9fe5b135750905c917d2b0bb5fab98b\010//
+
+#include <stdio.h>
+
+int main(){
+int a, b, c, d, x;
+printf("Please enter 4 numbers separated by spaces > ");
+scanf("%d %d %d %d", &a, &b, &c, &d);
+if (a>=b)
+x = b;
+else
+x = a;
+if (b>=c)
+x = c;
+if (c>=d)
+x = d;
+printf("%d is the smallest\n", x);
+return 0;
+}
+
+simi: 0.925925925926 path: G:\UIUC\IntroClass_Dot\IntroClass\smallest\b1924d63a2e25b7c8d9a794093c4ae97fdceec9e0ea46b6a4b02d9a18b9ba9cecf07cb0c42c264a0947aec22b0bacff788a547a8250c2265f601581ab545bf82\007/**/
+
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+
+	int num1, num2, num3, num4, smallest;
+
+	printf(" Please enter 4 numbers separated by spaces > ");
+	scanf("%d %d %d %d", &num1, &num2, &num3, &num4);
+
+	if (num1<= num2){
+		smallest = num1;
+	} else {
+		 smallest = num2;
+	 }
+	
+	if (num3 <= smallest){
+		smallest = num3;
+	}
+
+	if (num4 <= smallest){
+		smallest = num4;
+	}
+
+	printf("%d is the smallest\n", smallest);
+return 0;
+}
+
+simi: 0.625 path: G:\UIUC\IntroClass_Dot\IntroClass\smallest\fe9d5fb933c758c2cbbd859e3ecbd2d2eaecc2843b57cfd97da99af24de59f189a144d13ce81ec585d7c2f7367f70c0fb2aec8269eed1fd8380def614817ef7c\001//
+//
+#include<stdio.h>
+
+int main(){
+
+  int num1, num2, num3, num4, smallest;
+
+  printf( "Please enter 4 numbers separated by spaces > " );
+  scanf( "%d %d %d %d", &num1, &num2, &num3, &num4 );
+
+  if( num1 < num2 )
+
+  
+  printf( "%d is the smallest\n", smallest );
+
+  return 0;
+
+}

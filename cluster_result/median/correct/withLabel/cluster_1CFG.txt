@@ -1,0 +1,468 @@
+G:\UIUC\IntroClass_Dot\IntroClass\median\070455301c2e18c7c89b850c2e86c311ac5fd223c84e723591012e163d60f11f5fd030343a444049a44940f8607d36c463f30556bf1efa98916d7417c2b4393c\010:
+/**/
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+
+	int a, b, c, median;
+
+	a = 0;
+	b = 0;
+	c = 0;
+	median = 0;
+	printf("Please enter 3 numbers separated by spaces > ");
+	scanf("%d %d %d", &a, &b, &c);
+	
+	if ((a<=b && a>=c) || (a>=b && a<=c))
+		median = a;
+	else if ((b<=a && b>=c) || (b>=a && b<=c))
+		median = b;
+	else 
+		median = c;
+	printf("%d is the median\n", median);
+	
+	return 0;
+	
+}
+G:\UIUC\IntroClass_Dot\IntroClass\median\1b31fa5c50f7725ce468ebf24282f2d080a83aed87e4ee35522ae7710c8e0136bc263cc460b8ec7bf2c3519cb59af4a138e114d36541515b2609ab56ad2b8ee9\003:
+/**/
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num1, num2, num3;
+
+	printf("Please enter 3 numbers separated by spaces > ");
+	scanf("%i %i %i", &num1, &num2, &num3);
+
+	if((((num1 >= num2) && (num1 <= num3))) || ((num1 >= num3) && (num1 <= num2)))
+	{
+		printf("%i is the median\n", num1);
+
+		return 0;
+	}
+
+	else if((((num2 >= num1) && (num2 <= num3))) || ((num2 >= num3) && (num2 <= num1)))
+
+        {
+                printf("%i is the median\n", num2);
+
+		return 0;
+        }
+
+	else
+        {
+                printf("%i is the median\n", num3);
+
+		return 0;
+        }
+
+	return 0;
+}
+G:\UIUC\IntroClass_Dot\IntroClass\median\30074a0e036669b5681720e6481cc101877d52ee589bab434417ece22b4133ed584c6a84f80047c10ab47aa73a7807720b5375983e8b489e8e69978e5e0e8b71\015:
+/**/
+
+#include <stdio.h>
+#include <math.h>
+
+int main () {
+
+int a; //**/
+int b; //**/
+int c; //**/
+
+printf("Please enter 3 numbers separated by spaces > ");
+scanf("%d %d %d", &a, &b, &c); //**/
+
+if( (a>=b && a<=c) || (a<=b && a>=c)) //**/
+printf("%d is the median\n", a); 
+
+else if( (b>=a && b<=c) || (b<=a && b>=c)) //**/
+printf("%d is the median\n", b);
+
+else //**/
+printf("%d is the median\n", c);
+
+return (0);
+
+}
+G:\UIUC\IntroClass_Dot\IntroClass\median\317aa7055d3b7337ab43b73863692d1288ca246c473f9fd176bc737a7c3e1e08c37a15603cfb7bfc86f7bc2dcc239967b79b605aec11f86ae3ab90dc140b540f\007:
+/**/
+
+#include<stdio.h>
+#include<math.h>
+
+int main () {
+
+  int a,b,c;
+  printf("Please enter 3 numbers separated by spaces > ");
+  scanf("%d %d %d",&a,&b,&c);
+
+
+  if ((b>=a && b<=c) || (b<=a && b>=c)) 
+      printf("%d is the median\n",b);
+  
+  else if ((c>=a && c<=b) || (c<=a && c>=b))
+    printf("%d is the median\n",c);
+  
+  else if ((a>=b && a<=c) || (a<=b && a>=c))
+    printf("%d is the median\n",a);
+   
+  return 0;
+}
+
+
+G:\UIUC\IntroClass_Dot\IntroClass\median\3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829\016:
+/**/
+
+#include <stdio.h>
+
+int main(){
+
+	int n1, n2, n3, small;
+
+	printf("Please enter 3 numbers separated by spaces > ");
+	scanf("%d%d%d", &n1, &n2, &n3);
+	if (n1 <= n2){
+		small = n1;
+		if (small > n3)
+			printf("%d is the median\n", n1);
+		
+		else if (n3 > n2)
+			printf("%d is the median\n", n2);
+
+		else
+			printf("%d is the median\n", n3);
+}
+	else{
+		small = n2;
+		if (small > n3)
+			printf("%d is the median\n", n2);
+
+		else if (n3 > n1)
+                        printf("%d is the median\n", n1);
+
+                else
+                        printf("%d is the median\n", n3);
+}
+//**/
+	return 0;
+}
+G:\UIUC\IntroClass_Dot\IntroClass\median\3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f\013:
+/**/
+
+#include <stdio.h>
+
+int main () {
+
+	int a, b, c;	//**/
+	
+	printf("Please enter 3 numbers separated by spaces > ");
+		scanf("%d%d%d", &a, &b, &c);
+	
+	if ((a >= b && b >= c) || (c >= b && b >= a)) {
+		printf ("%d is the median\n", b);
+		}
+	else if ((b >= a && a >= c) || (c >= a && a >= b)) {
+		printf ("%d is the median\n", a);
+		}
+	else if ((a >= c && c >= b) || (b >= c && c >= a)) {
+		printf ("%d is the median\n", c);
+		}
+	
+	return 0;
+}
+G:\UIUC\IntroClass_Dot\IntroClass\median\48b82975576f07f162163145b334648a73321d003a0a8cd4577172e48ce4836e63953dffd4460a9a7aadc511a695ff93de0ce2baf953e4b78b747440caa736a6\001:
+/**/
+#include <math.h>
+#include <stdio.h>
+int main(){
+int a, b, c;
+printf("Please enter 3 numbers separated by spaces > ");
+scanf("%d%d%d", &a, &b, &c);
+if ((a<=b && b<=c) || (c <=b && b<=a))
+	printf("%d is the median\n", b);
+else if ((b <=a && a <=c) || (c<=a && a <=b))
+	printf("%d is the median\n",a);
+else printf("%d is the median\n", c);
+return 0;
+}
+G:\UIUC\IntroClass_Dot\IntroClass\median\68eb0bb00bcd06020ba4e5c5afbce504f5e7af9618c274197da7d50f668649a59f3eb961a718f5f67cc8731f9f5e2df46e511d083b2b5e785e9377c8f94e6ea5\011:
+/**/
+
+#include<stdio.h>
+
+int
+main(void)
+{
+
+int x,y, z;
+
+//**/
+printf("Please enter 3 numbers separated by spaces > ");
+scanf("%d%d%d",&x,&y,&z);
+
+if ((x>=y && x<=z) || (x<=y && x>=z))
+printf("%d is the median\n",x);
+
+else if ((y>=x && y<=z) || (y<=x && y>=z))
+printf("%d is the median\n",y);
+
+else
+printf("%d is the median\n",z);
+
+return(0);
+}
+G:\UIUC\IntroClass_Dot\IntroClass\median\95362737dcd262ddd67b0fe1381c25f1e6b885860b4e51efb6f57223dceb77b4c6c7d855e3fe891c10cd51b48c9b052cf2c74f181a28d3020d77a4a2d6e4db18\018:
+//
+#include <stdio.h>
+
+int
+main(void)
+{
+	int n1, n2, n3;
+	
+	printf("Please enter 3 numbers separated by spaces > ");
+	scanf("%d%d%d", &n1, &n2, &n3);
+	if ((n2<=n1 && n1<=n3) || (n3<=n1 && n1<=n2))
+	printf("%d is the median\n", n1);
+	else if ((n1<n2 && n2<=n3) || (n3<=n2 && n2<n1))
+	printf("%d is the median\n", n2);
+	else if ((n1<n3 && n3<n2) || (n2<n3 && n3<n1))
+	printf ("%d is the median\n", n3);
+	
+return(0);
+}
+
+G:\UIUC\IntroClass_Dot\IntroClass\median\9c9308d4cdf5bc5dfe6efc2b1a9c9bc9a44fbff73c5367c97e3be37861bbb3ba9ac7ad3ddec74dc66e34fe8f0804e46186819b4e90e8f9a59d1b82d9cf0a6218\013:
+/**/
+#include <stdio.h>
+
+
+int main () {
+
+double n1, n2, n3, median;
+printf("Please enter 3 numbers separated by spaces > ");
+scanf("%lf %lf %lf", &n1, &n2, &n3);
+if(n1>=n2||n1>=n3)
+{
+    if(n1>=n3 && n1>=n2)
+    {
+        if(n2>=n3)
+        median=n2;
+        else
+        median=n3;
+    }
+    else
+    median=n1;
+
+}
+else if(n2>=n3)
+median=n3;
+else
+median=n2;
+
+printf("%.0lf is the median\n",median);
+
+return(0);
+
+
+
+
+
+
+}
+G:\UIUC\IntroClass_Dot\IntroClass\median\af81ffd4bc47e4f84cbf87051d82d15af14833eaba6c57ae82fc503a67eb939f3e6552182124605c38a77a6774f41fac2cc95082320ba5e29d303277c098c4ae\011:
+/**/
+//**/
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+
+double first, second, third;
+double median;
+double comp_fir, comp_sec, comp_thi;
+
+printf("Please enter 3 numbers separated by spaces > ");
+scanf("%lf""%lf""%lf", &first, &second, &third);
+
+median=(first+second+third)/3;
+
+comp_fir=fabs(first-median);
+comp_sec=fabs(second-median);
+comp_thi=fabs(third-median);
+
+if (comp_fir < comp_sec && comp_fir < comp_thi)
+printf("%.0f is the median\n", first);
+
+else if (comp_sec < comp_fir && comp_sec < comp_thi)
+printf("%.0f is the median\n", second);
+
+else if (comp_thi < comp_fir && comp_thi < comp_sec)
+printf("%.0f is the median\n", third);
+
+else if (comp_fir == comp_sec)
+printf("%.0f is the median\n", first);
+
+else if (comp_fir == comp_thi)
+printf("%.0f is the median\n", first);
+
+else if (comp_thi == comp_sec)
+printf("%.0f is the median\n", second);
+
+return(0);
+
+}
+G:\UIUC\IntroClass_Dot\IntroClass\median\d120480a6e4bd3c4aa2ca882cf7c0aaa499d56c9c236aba6bea7aa935843da56c1ce494b71da9e2c2fd6016b05c84164bbd70867801caf480497fa51a3b78cb1\001:
+/**/
+
+#include<stdio.h>
+
+int main(void) {
+  int a, b, c, median, temp;
+  median = 0;
+  temp = 0;
+  printf("Please enter 3 numbers separated by spaces > ");
+  scanf ("%d%d%d", &a, &b, &c);
+
+  if (a>=b) {
+    temp = b;
+    b = a;
+    a = temp;
+  }
+  if (c>b)
+    median = b;
+  else if (c<b && c>a)
+    median = c;
+  else 
+    median = a;
+
+  printf("%d is the median\n", median);
+
+  return(0);
+
+}
+G:\UIUC\IntroClass_Dot\IntroClass\median\d25c714b0bf59a479cfefe89ae1a98cf00937dccbe68f02fb160f1f561c967d01a00b4b0ef23c9eb1bd2a5667b48ed78e484802b21672ab946b354ff7a6027c7\007:
+/**/
+
+#include <stdio.h>
+
+int  main() {
+
+int A,B,C;
+int Small, Large;
+int Median;
+
+
+printf("Please enter 3 numbers separated by spaces > ");
+scanf("%d%d%d", &A, &B, &C);
+
+//
+//
+
+//
+
+	if (A>B) 	{
+		Large = A;
+		Small = B;
+	} else 		{
+		Large = B;
+		Small = A;
+	}
+		
+
+	
+	if (C>Large)
+		Median = Large;
+	else if (C<Small)
+		Median = Small;
+	else Median = C;
+
+//**/
+printf("%d is the median\n", Median);
+
+return (0);
+}
+G:\UIUC\IntroClass_Dot\IntroClass\median\d2b889e1ac42bc85f9df5c45c10708f46784be93d69acd1415cfd4d028cb50b19f50c374a9498c8e8b909173053a100e20c279ddb06c6359a06a920ead3e8080\001:
+/**/
+#include<stdio.h>
+
+int main (){
+
+int a,b,c;
+        
+printf("Please enter 3 numbers separated by spaces > ");
+        
+scanf("%d %d %d", &a, &b, &c);
+        
+if ((a <= b && b <= c) || (c <= b && b <= a)){
+	printf("%d is the median\n", b);
+        }
+else if ((b <= c && c <= a) || (a <= c && c <= b)){
+        printf("%d is the median\n", c);
+        }
+else if ((c <= a && a <= b) || (b <= a && a <= c)){ 
+       printf("%d is the median\n", a);
+        }
+return 0;
+}
+
+
+G:\UIUC\IntroClass_Dot\IntroClass\median\e9c6206d3a4862876b0dead881ac55078f11e291f60215ab028651f06fcbee2a591a31a7727037774542df4fe051a89460d85f6067a0b9729ae86e4afe1e6e92\003:
+/**/
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+
+int a, b, c; //**/
+
+printf("Please enter 3 numbers separated by spaces > ");
+scanf("%d%d%d", &a, &b, &c);
+
+if ((a <= b && b <= c) || (c <= b && b <= a))
+	printf("%d is the median\n", b);
+else if ((b <= a && a <= c) || (c <= a && a <= b))
+	printf("%d is the median\n", a);
+else if ((a <= c && c <= b) || (b <= c && c <= a))
+	printf("%d is the median\n", c);
+
+return 0;
+
+}G:\UIUC\IntroClass_Dot\IntroClass\median\fe9d5fb933c758c2cbbd859e3ecbd2d2eaecc2843b57cfd97da99af24de59f189a144d13ce81ec585d7c2f7367f70c0fb2aec8269eed1fd8380def614817ef7c\008:
+//
+//
+#include<stdio.h>
+
+int main(){
+  int num1, num2, num3, median, big, small;
+
+  printf( "Please enter 3 numbers separated by spaces > " );
+  scanf( "%d %d %d", &num1, &num2, &num3 );
+
+  if( num1 >= num2 ){
+    small = num2;
+    big = num1;
+  }
+  else{
+    big = num2;
+    small = num1;
+  }
+  if( num3 >= big )
+    median = big;
+  else if( num3 <= small )
+    median = small;
+  else 
+    median = num3;
+
+  printf( "%d is the median\n", median );
+
+  return 0;
+
+}

@@ -1,0 +1,196 @@
+G:\UIUC\IntroClass_Dot\IntroClass\median\070455301c2e18c7c89b850c2e86c311ac5fd223c84e723591012e163d60f11f5fd030343a444049a44940f8607d36c463f30556bf1efa98916d7417c2b4393c\010:
+/**/
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+
+	int a, b, c, median;
+
+	a = 0;
+	b = 0;
+	c = 0;
+	median = 0;
+	printf("Please enter 3 numbers separated by spaces > ");
+	scanf("%d %d %d", &a, &b, &c);
+	
+	if ((a<=b && a>=c) || (a>=b && a<=c))
+		median = a;
+	else if ((b<=a && b>=c) || (b>=a && b<=c))
+		median = b;
+	else 
+		median = c;
+	printf("%d is the median\n", median);
+	
+	return 0;
+	
+}
+G:\UIUC\IntroClass_Dot\IntroClass\median\0cdfa335eea3c612e6fa3ad261276b0c3ebbc6ff0ff13c20bdc249bad29a8037ca6dc887dd28558964e1e1a24f47c4cffc05adba525285dc8b93660cdf9b8b7c\010:
+//
+//
+#include <stdio.h>
+
+int main()
+{
+  int a, b, c, temp;
+
+  printf("Please enter 3 numbers separated by spaces > ");
+  scanf("%d%d%d", &a, &b, &c);
+
+  if(a > b)
+  {
+    temp = b;
+    b = a;
+    a = temp;
+//
+  }
+  if(b > c)
+  {
+    temp = c;
+    c = b;
+    b = temp;
+//
+  }
+  if(a > b)
+  {
+    temp = b;
+    b = a;
+    a = temp;
+//
+  }
+
+  printf("%d is the median\n", b);
+
+  return 0;
+}
+G:\UIUC\IntroClass_Dot\IntroClass\median\3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f\013:
+/**/
+
+#include <stdio.h>
+
+int main () {
+
+	int a, b, c;	//**/
+	
+	printf("Please enter 3 numbers separated by spaces > ");
+		scanf("%d%d%d", &a, &b, &c);
+	
+	if ((a >= b && b >= c) || (c >= b && b >= a)) {
+		printf ("%d is the median\n", b);
+		}
+	else if ((b >= a && a >= c) || (c >= a && a >= b)) {
+		printf ("%d is the median\n", a);
+		}
+	else if ((a >= c && c >= b) || (b >= c && c >= a)) {
+		printf ("%d is the median\n", c);
+		}
+	
+	return 0;
+}
+G:\UIUC\IntroClass_Dot\IntroClass\median\c716ee619761838749589cbd08d5fd56830bff349039f8587e988a5b0cd6310e04844d8e0ee98c5ffee3275aa227bd2c92fcde0993637fcf3bfbd41a37378833\007:
+/**/
+
+#include <stdio.h>
+
+int
+main(void)
+{
+
+	int A, B, C;
+	printf("Please enter 3 numbers separated by spaces > ");
+	scanf("%d%d%d", &A, &B, &C);
+	if (A == B && A ==C)
+		printf("%d is the median\n", A);
+	else if ( A > B && A < C)
+		printf("%d is the median\n", A);
+	else if ( A > C && A < B)
+		printf("%d is the median\n", A);
+	else if ( B > C && B < A)
+		printf("%d is the median\n", B);
+	else if ( B > A && B < C)
+		printf("%d is the median\n", B);
+	else if ( C > A && C < B)
+		printf("%d is the median\n", C);
+	else if ( C > B && C < A)
+		printf("%d is the median\n", C);
+	else if ( A == B )
+		printf("%d is the median\n", B);
+	else if ( A == C )
+		printf("%d is the median\n", C);
+	else if ( C == B)
+		printf("%d is the median\n", C);
+return(0);
+}
+G:\UIUC\IntroClass_Dot\IntroClass\median\d25c714b0bf59a479cfefe89ae1a98cf00937dccbe68f02fb160f1f561c967d01a00b4b0ef23c9eb1bd2a5667b48ed78e484802b21672ab946b354ff7a6027c7\007:
+/**/
+
+#include <stdio.h>
+
+int  main() {
+
+int A,B,C;
+int Small, Large;
+int Median;
+
+
+printf("Please enter 3 numbers separated by spaces > ");
+scanf("%d%d%d", &A, &B, &C);
+
+//
+//
+
+//
+
+	if (A>B) 	{
+		Large = A;
+		Small = B;
+	} else 		{
+		Large = B;
+		Small = A;
+	}
+		
+
+	
+	if (C>Large)
+		Median = Large;
+	else if (C<Small)
+		Median = Small;
+	else Median = C;
+
+//**/
+printf("%d is the median\n", Median);
+
+return (0);
+}
+G:\UIUC\IntroClass_Dot\IntroClass\median\fe9d5fb933c758c2cbbd859e3ecbd2d2eaecc2843b57cfd97da99af24de59f189a144d13ce81ec585d7c2f7367f70c0fb2aec8269eed1fd8380def614817ef7c\008:
+//
+//
+#include<stdio.h>
+
+int main(){
+  int num1, num2, num3, median, big, small;
+
+  printf( "Please enter 3 numbers separated by spaces > " );
+  scanf( "%d %d %d", &num1, &num2, &num3 );
+
+  if( num1 >= num2 ){
+    small = num2;
+    big = num1;
+  }
+  else{
+    big = num2;
+    small = num1;
+  }
+  if( num3 >= big )
+    median = big;
+  else if( num3 <= small )
+    median = small;
+  else 
+    median = num3;
+
+  printf( "%d is the median\n", median );
+
+  return 0;
+
+}

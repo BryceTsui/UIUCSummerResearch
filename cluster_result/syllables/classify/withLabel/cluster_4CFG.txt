@@ -1,0 +1,75 @@
+G:\UIUC\IntroClass_Dot\IntroClass\syllables\e9c74e27a17310a52842f7099c3e5c126298e1a08f2b841169cd5f155e6f2970d14d0314da1f6314ed970de1d20be306a60f0ce341d1c4d01300cc6efad7ab9b\001/**/
+
+#include <stdio.h>
+#include <string.h>
+
+#define SIZE 20
+
+void vowelcounter(const char s1[], int *syllp);
+
+int main ()
+{
+
+    char s1[SIZE];
+    int syll;
+    
+    printf("Please enter a string > ");
+    fgets(s1, SIZE - 1, stdin);
+
+    vowelcounter(s1, &syll);
+    printf("The number of syllables is %d.\n", syll);
+
+    return 0;
+}
+
+void vowelcounter(const char s1[], int *syllp)
+{
+    
+    int i;
+
+    for(i = 0, *syllp = 0;
+        i < strlen(s1);
+        ++i)
+        if(s1[i] == 'a' || s1[i] == 'e' || s1[i] == 'i' || s1[i] == 'o' || s1[i] == 'u' || s1[i] == 'y')
+            ++*syllp;
+}
+
+
+
+simi: 0.954545454545 path: G:\UIUC\IntroClass_Dot\IntroClass\syllables\e9c74e27a17310a52842f7099c3e5c126298e1a08f2b841169cd5f155e6f2970d14d0314da1f6314ed970de1d20be306a60f0ce341d1c4d01300cc6efad7ab9b\000/**/
+
+#include <stdio.h>
+#include <string.h>
+
+#define SIZE 20
+
+void vowelcounter(const char s1[], int *syllp);
+
+int main ()
+{
+
+    char s1[SIZE];
+    int syll;
+    
+    printf("Please enter a string > ");
+    fgets(s1, SIZE - 1, stdin);
+
+    vowelcounter(s1, &syll);
+    printf("The number of syllables is %d.\n", syll);
+
+    return 0;
+}
+
+void vowelcounter(const char s1[], int *syllp)
+{
+    
+    int i;
+
+    for(i = 0, *syllp = 0;
+        i < strlen(s1);
+        ++i)
+        if(s1[i] == 'a' || s1[i] == 'e' || s1[i] == 'i' || s1[i] == 'o' || s1[i] == 'u')
+            ++*syllp;
+}
+
+

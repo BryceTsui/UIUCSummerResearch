@@ -1,0 +1,88 @@
+G:\UIUC\IntroClass_Dot\IntroClass\smallest\6aaeaf2ffb623b5736c0c0b9e8a1a3b080e8aef14d963d899eb3e4073245ad1171e26fb2a64fb88db6e40aa59e894a55eac832e38d444755cb3b6ad10ba74c62\002:
+/**/
+#include <stdio.h>
+#include <math.h>
+
+int main ()
+{
+	int int1, int2, int3, int4, tmp;
+	printf("Please enter 4 numbers separated by spaces > ");
+	scanf("%i%i%i%i", &int1, &int2, &int3, &int4);
+	tmp = int1;
+	if (tmp > int2)
+	tmp = int2;
+	if (tmp > int3)
+	tmp = int3;
+	if (tmp > int4)
+	tmp = int4;
+
+	printf("%i is the smallest\n", tmp);
+
+	return 0;
+}
+G:\UIUC\IntroClass_Dot\IntroClass\smallest\769cd811312cbbb82c87033a78ac9584ad282550bcb9cc3ae8c4e3da44c288c1a5b3954e01998c3c0654ee6774ceab66e9fe5b135750905c917d2b0bb5fab98b\011:
+//
+
+#include <stdio.h>
+
+int main(){
+int a, b, c, d, x;
+printf("Please enter 4 numbers separated by spaces > ");
+scanf("%d %d %d %d", &a, &b, &c, &d);
+if (a>=b)
+x = b;
+else
+x = a;
+if (x>=c)
+x = c;
+if (x>=d)
+x = d;
+printf("%d is the smallest\n", x);
+return 0;
+}
+G:\UIUC\IntroClass_Dot\IntroClass\smallest\cb243bebea400595cc274d1246f3307c507ba6a0e891f6e318cde2b80a72de40dab19eb7f76d3b6573a08e446bce6fb4435cdb016ae6489973b855a9bddd3b11\001:
+/**/
+#include <stdio.h>
+
+int main(){
+	int n1, n2, n3, n4, min;
+	printf("Please enter 4 numbers separated by spaces > ");
+	scanf("%d%d%d%d", &n1, &n2, &n3, &n4);
+	if (n1 <= n2)
+		min=n1;
+	else
+		min=n2;
+	if (min >= n3)
+		min=n3;
+	if (min >= n4)
+		min=n4;
+	
+	printf("%d is the smallest\n", min);
+	return 0;
+}
+
+G:\UIUC\IntroClass_Dot\IntroClass\smallest\fe9d5fb933c758c2cbbd859e3ecbd2d2eaecc2843b57cfd97da99af24de59f189a144d13ce81ec585d7c2f7367f70c0fb2aec8269eed1fd8380def614817ef7c\006:
+//
+//
+#include<stdio.h>
+
+int main(){
+
+  int num1, num2, num3, num4, min;
+
+  printf( "Please enter 4 numbers separated by spaces > " );
+  scanf( "%d %d %d %d", &num1, &num2, &num3, &num4 ); 
+
+  min = num1;
+
+  if( min > num2 )
+    min = num2;
+  if( min > num3 )
+    min = num3;
+  if( min > num4 )
+    min = num4;
+  printf( "%d is the smallest\n", min );
+ 
+  return 0;
+
+}

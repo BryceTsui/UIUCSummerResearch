@@ -1,0 +1,124 @@
+G:\UIUC\IntroClass_Dot\IntroClass\syllables\48b82975576f07f162163145b334648a73321d003a0a8cd4577172e48ce4836e63953dffd4460a9a7aadc511a695ff93de0ce2baf953e4b78b747440caa736a6\000:
+/**/
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#define leng 20
+int main(){
+char word[leng];
+int i, sy;
+sy=0;
+printf("Please enter a string > ");
+fgets(word,20, stdin);
+for (i=0; i<strlen(word); ++i){
+if ((word[i]=='a') ||(word[i]== 'e') ||(word[i]== 'i') ||(word[i]== 'o') ||(word[i]== 'u')||(word[i]== 'y'))
+sy+=1;
+}
+printf("The number of syllables is %d.\n",sy);
+return 0;
+}
+G:\UIUC\IntroClass_Dot\IntroClass\syllables\824eb077ad12f1d09c072e46b02fd0a9a605d9c527b8c9de6ef22b674982933a26784bd60162bd814b2d453c4196c41e9451019dcd671946a32f44a733c75978\001:
+//
+
+
+#include <stdio.h>
+#include <string.h>
+#define SIZE 21
+
+int main(){
+
+        char str[SIZE];
+        int i, count;
+
+        printf("Please enter a string > ");
+        fgets(str, 20, stdin);
+        count = 0;
+        for(i = 0; i < strlen(str); i++){
+                if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u' || str[i] == 'y')
+                        ++count;
+
+        }
+
+        printf("The number of syllables is %d.\n", count);
+
+        return 0;
+
+}
+G:\UIUC\IntroClass_Dot\IntroClass\syllables\b6fd408d589fd1cce4003e2cf601a028e3c01042c8a274ddc384a1524cab2014154932e9cb48312af6af394ee6bee85603cab8dad3c9617a49b9d14dc482b578\001:
+/**/
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+	char word[40];
+	int i=0;
+	int count=0;
+	printf("Please enter a string > ");
+	fgets(word, 19, stdin);
+	while(i<strlen(word))
+{
+	if(word[i]=='a'
+	 ||word[i]=='o'
+	 ||word[i]=='e'
+	 ||word[i]=='i'
+	 ||word[i]=='u'
+	 ||word[i]=='y')
+	count++;
+	i++;
+}
+	printf("The number of syllables is %d.\n", count);
+	return 0;
+}
+G:\UIUC\IntroClass_Dot\IntroClass\syllables\dc11fbc9421c547961bfefcdc4044715a7131ceb484b10c8391745399298fcce81022dbb780a9efcac004486b7d989ef4bf0dfb5a4db7c599a8f9aa3393570ae\005:
+/**/
+
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+
+	int size = 20;
+	int vowels = 0;
+	char n[size];
+
+
+	printf("Please enter a string > ");
+	fgets(n, size - 1, stdin);
+
+	int i;
+	for(i = 0; i < strlen(n); i++) {
+		if(n[i] == 'a' || n[i] == 'e' || n[i] == 'i' || n[i] == 'o' || n[i] == 'u' || n[i] == 'y')
+			vowels++;
+	}
+
+	printf("The number of syllables is %d.\n", vowels);
+
+	return 0;
+}
+
+G:\UIUC\IntroClass_Dot\IntroClass\syllables\ea67b84145a12733c524b716da44f36a42cf815013d14cafbd2a66a5a4c8b5a99022c355960cd62ca71a640315747cd604afdfa9ec753d1739c686734b2798a7\007:
+/**/
+
+#include<string.h>
+#include<stdio.h>
+
+int main () 
+{
+	char ch[21];
+	int k,syll;
+	printf("Please enter a string > ");
+	fgets(ch,20,stdin);
+	syll=0;
+	for (k=0;k<(strlen(ch)+1);k++)
+	{
+		if (ch[k]=='a'||ch[k]=='e'||ch[k]=='i'||ch[k]=='o'||ch[k]=='u'||ch[k]=='y')
+		{
+			syll=syll+1;
+		}
+	}
+	printf("The number of syllables is %d.\n",syll);
+	
+	return 0;
+}

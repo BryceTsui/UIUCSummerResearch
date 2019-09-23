@@ -1,0 +1,51 @@
+G:\UIUC\IntroClass_Dot\IntroClass\smallest\6aaeaf2ffb623b5736c0c0b9e8a1a3b080e8aef14d963d899eb3e4073245ad1171e26fb2a64fb88db6e40aa59e894a55eac832e38d444755cb3b6ad10ba74c62\002:
+/**/
+#include <stdio.h>
+#include <math.h>
+
+int main ()
+{
+	int int1, int2, int3, int4, tmp;
+	printf("Please enter 4 numbers separated by spaces > ");
+	scanf("%i%i%i%i", &int1, &int2, &int3, &int4);
+	tmp = int1;
+	if (tmp > int2)
+	tmp = int2;
+	if (tmp > int3)
+	tmp = int3;
+	if (tmp > int4)
+	tmp = int4;
+
+	printf("%i is the smallest\n", tmp);
+
+	return 0;
+}
+G:\UIUC\IntroClass_Dot\IntroClass\smallest\d9e7eab5f82342d78fb20833701c4e9f900e8fcb737038d3a2ad18f664532af4d6332b7d14841c9ac773c52f6590b754f76df1f430a35bc8ca4799a767cdec6d\014:
+/**/
+#include <stdio.h>
+
+int main(void)	{
+    int one;
+    int two;
+    int three;
+    int four;
+    int small;
+    int smaller;
+    int smallest;
+    printf("Please enter 4 numbers separated by spaces > ");
+    scanf("%d %d %d %d",&one, &two, &three, &four);
+    if (one <= two) 
+       small = one;
+    else 
+       small = two;
+    if (small <= three) 
+       smaller = small;
+    else
+       smaller = three;
+    if (smaller <= four) 
+       smallest = smaller;
+    else
+       smallest = four;
+    printf("%d is the smallest",smallest);
+    return(0);
+}

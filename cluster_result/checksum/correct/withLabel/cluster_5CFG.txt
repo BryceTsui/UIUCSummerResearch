@@ -1,0 +1,106 @@
+G:\UIUC\data\iterate\problems\checksum\b6fd408d589fd1cce4003e2cf601a028e3c01042c8a274ddc384a1524cab2014154932e9cb48312af6af394ee6bee85603cab8dad3c9617a49b9d14dc482b578\003:
+/**/
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+	char stuff;
+	int sum=0;
+	printf("Enter an abitrarily long string, ending with carriage return > ");
+	scanf("%c", &stuff);//**/
+	while(stuff!='\n') //**/
+	{
+	sum+=(int)stuff; //**/
+	scanf("%c", &stuff);//**/
+	}
+	sum=sum%64+ (int)' '; //**/
+	printf("Check sum is %c\n", (char) sum); //**/	
+	return 0;
+}
+G:\UIUC\data\iterate\problems\checksum\ca94e3756cbf8d1490bad660c06307f5d678e3675bbea85359523809a4f06b370066767ea2d2d76d270e4712b464924f12e19dbf1a12d28b75d367ceb202dbb9\007:
+/**/
+
+#include <stdio.h>
+
+int main () {
+	char x;
+	int rem;
+	int sum; 
+	int checksum;
+//
+	
+        printf("Enter an abitrarily long string, ending with carriage return > ");
+	scanf("%c", &x);
+	
+	sum = 0;	
+	while (x != '\n') {
+
+	sum = sum + x;
+//**/	
+	scanf("%c", &x);
+	}
+	rem = sum % 64;
+	checksum =  rem + ' ';
+	printf("Check sum is %c\n",  checksum);
+	return 0;
+}
+	
+
+	
+G:\UIUC\data\iterate\problems\checksum\d43d32076778e9cb3a2aa237e806bc00b0eaffde5b75563c9321019a817607f8303e6b982bf49358787264ac38e22026f27bde7e67a87ba43b973c29442f9e93\001:
+/**/
+
+#include <stdio.h>
+
+int
+main(void)
+{
+    int input, a, checksum;
+
+    printf("Enter an abitrarily long string, ending with carriage return > ");
+    scanf("%c", &input);
+
+    a = 0;
+    do {
+        input = (int)input + (int)a;
+        scanf("%c", &a);
+    } while (a != '\n');
+
+    checksum = ((int)input % 64) + (int)' ';
+
+    printf("Check sum is %c\n", (char)checksum);
+
+    return(0);
+}
+G:\UIUC\data\iterate\problems\checksum\d5cc7acaad4f01271abd8e5e7aecd52ad0fd82b2ea0c14dec8df934c2339b522dd2ed9549605a6405048bcbd89256e7ec818001899fecaa1ec147265783608f9\004:
+/**/
+
+#include<stdio.h>
+#include<math.h>
+
+
+int main (void)
+{
+	char a[4095];
+	int n =0, sum = 0, checksum;
+
+
+n=0;
+
+printf("Enter an abitrarily long string, ending with carriage return > ");
+fgets(a,256, stdin);
+
+while(a[n+1] != '\0')
+{	
+	sum += (int)(a[n]);
+	n++;
+}
+
+checksum = (sum%64)+32;
+
+printf("Check sum is %c\n", (char)checksum);
+
+return(0);
+
+}
+

@@ -1,0 +1,63 @@
+G:\UIUC\IntroClass_Dot\IntroClass\smallest\5a5683598d8e2140d344e9ac96a8d6105b8e6e55831ab874cd960dfe789c3b242d57aad028e2b28331e4d61019d6e1b1d1cad97316bcb0378df48de738147b7d\004:
+//
+//
+//
+
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+int a, b, c, d; //
+
+
+//
+printf("Please enter 4 numbers separated by spaces > ");
+scanf("%d%d%d%d", &a, &b, &c, &d);
+
+//
+
+//
+if ((a<=b)&&(a<=c)&&(a<=d))
+{
+	printf("%d is the smallest\n", a);
+}
+//
+else if ((b<=a)&&(b<=c)&&(b<=d))
+{	
+	printf("%d is the smallest\n", b);
+}
+//
+else if ((c<=a)&&(c<=b)&&(c<=d))
+{
+	printf("%d is the smallest\n", c);
+}
+//
+else if ((d<=a)&&(d<=b)&&(d<=c))
+{
+	printf("%d is the smallest\n", d);
+
+}
+return(0);
+}
+G:\UIUC\IntroClass_Dot\IntroClass\smallest\f94e261284a925b931cca5a89f73ae19039f2699f0416d5e4e7e673bb7a2c746760ae35adf47cfa94ad5af1623209b17a0e53c1300d3771c5b0b0cada1561d3f\005:
+/**/
+#include<stdio.h>
+
+int
+main(void)
+{
+	int n1,n2,n3,n4;
+	printf("Please enter 4 numbers separated by spaces > ");
+	scanf("%d%d%d%d", &n1,&n2,&n3,&n4);
+
+	if( n1<=n2 && n1<=n3 && n1<= n4)
+		printf("%d is the smallest\n",n1);
+	else if( n2<=n1 && n2<=n3 && n2<=n4)
+		printf("%d is the smallest\n",n2);
+	else if( n4<=n1 && n4<=n2 && n4<=n3)
+		printf("%d is the smallest\n",n4);
+	else if( n3<=n1 && n3<=n2 && n3<= n4)
+		printf("%d is the smallest\n",n3);
+	return(0);
+}

@@ -1,0 +1,55 @@
+G:\UIUC\IntroClass_Dot\IntroClass\smallest\c868b30a4adebf62b0ed20170a14ee9e5f8bc62d827e9712294ffa4a10ab8423e3d903c29e2392c83963972019a470e667c1987e2547294d1e2d1df1db832912\003:
+//
+//
+
+#include <stdio.h>
+
+int main()
+{
+  int x, i, smallest, j, k, temp;
+  int numbers[4];
+
+  printf("Please enter 4 numbers separated by spaces > ");
+  for(i = 0; i < 4; i++)
+  {
+    scanf("%d", &x);
+    numbers[i] = x; 
+  }
+ 
+  for (k = 3; k > 0; k--)
+  {
+    for (j = 1; j <= k; j++)
+    {
+      if (numbers[j-1] > numbers[j])
+      {
+        temp = numbers[j-1];
+        numbers[j-1] = numbers[j];
+        numbers[j] = temp;
+      }
+    }
+  }
+  smallest = numbers[0];
+  printf("%d is the smallest\n", smallest);
+  return 0;
+}
+G:\UIUC\IntroClass_Dot\IntroClass\smallest\cb243bebea400595cc274d1246f3307c507ba6a0e891f6e318cde2b80a72de40dab19eb7f76d3b6573a08e446bce6fb4435cdb016ae6489973b855a9bddd3b11\001:
+/**/
+#include <stdio.h>
+
+int main(){
+	int n1, n2, n3, n4, min;
+	printf("Please enter 4 numbers separated by spaces > ");
+	scanf("%d%d%d%d", &n1, &n2, &n3, &n4);
+	if (n1 <= n2)
+		min=n1;
+	else
+		min=n2;
+	if (min >= n3)
+		min=n3;
+	if (min >= n4)
+		min=n4;
+	
+	printf("%d is the smallest\n", min);
+	return 0;
+}
+

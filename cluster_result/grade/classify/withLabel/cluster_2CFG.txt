@@ -1,0 +1,2230 @@
+G:\UIUC\IntroClass_Dot\IntroClass\grade\1c2bb3a40a82cba97b2937bc6825903a28ecfe91f993fc177a0f2ae003bcc7b1073eb49e35d3f0f69d6b612e8347e9c1b93306bf25a7e5390098c1a06845baac\016/**/
+
+#include <stdio.h>
+#include <math.h>
+
+int
+main(void)
+{
+
+double a, b ,c, d, e;
+
+printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > Thank you. ");
+scanf("%lf %lf %lf %lf", &a, &b, &c, &d);
+
+printf("Now enter student score (percent) >");
+scanf("%lf", &e);
+
+if (e >= a)
+	printf("Student has an A grade\n");
+
+else if (e >= b)
+	printf("Student has an B grade\n");
+
+else if (e >= c)
+	printf("Student has an C grade\n");
+
+else if (e >= d) 
+	printf("Student has an D grade\n");
+else
+	printf("Student has failed the course\n");
+
+return(0);
+}
+
+simi: 0.923076923077 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\0cdfa335eea3c612e6fa3ad261276b0c3ebbc6ff0ff13c20bdc249bad29a8037ca6dc887dd28558964e1e1a24f47c4cffc05adba525285dc8b93660cdf9b8b7c\003//
+//
+#include <stdio.h>
+
+int main()
+{
+  float a, b, c, d, score;
+
+  printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+  scanf("%f%f%f%f", &a, &b, &c, &d);
+  printf("Thank you. Now enter student score (percent) >");
+  scanf("%f", &score);
+
+  if(score >= a)
+    printf("Student has an A grade\n");
+  if(score >= b)
+    printf("Student has an B grade\n");
+  if(score >= c)
+    printf("Student has an C grade\n");
+  if(score >= d)
+    printf("Student has an D grade\n");
+  else
+    printf("Student has an F grade\n");
+
+  return 0;
+}
+
+simi: 0.871794871795 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\1c2bb3a40a82cba97b2937bc6825903a28ecfe91f993fc177a0f2ae003bcc7b1073eb49e35d3f0f69d6b612e8347e9c1b93306bf25a7e5390098c1a06845baac\000/**/
+
+#include <stdio.h>
+#include <math.h>
+
+int
+main(void)
+{
+
+double a, b ,c, d, e;
+
+printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > Thank you. ");
+scanf("%lf %lf %lf %lf", &a, &b, &c, &d);
+
+printf("Now enter student score (percent) >");
+scanf("%lf", &e);
+
+if (e >= a)
+	printf("Student has an A grade\n");
+
+else if (e >= b)
+	printf("Student has an B grade\n");
+
+else if (e >= c)
+	printf("Student has an C grade\n");
+
+else 
+	printf("Student has an D grade\n");
+
+return(0);
+}
+
+simi: 0.871794871795 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\1c2bb3a40a82cba97b2937bc6825903a28ecfe91f993fc177a0f2ae003bcc7b1073eb49e35d3f0f69d6b612e8347e9c1b93306bf25a7e5390098c1a06845baac\001/**/
+
+#include <stdio.h>
+#include <math.h>
+
+int
+main(void)
+{
+
+double a, b ,c, d, e;
+
+printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > Thank you. ");
+scanf("%lf %lf %lf %lf", &a, &b, &c, &d);
+
+printf("Now enter student score (percent) >");
+scanf("%lf", &e);
+
+if (e >= a)
+	printf("Student has an A grade\n");
+
+else if (e >= b)
+	printf("Student has an B grade\n");
+
+else if (e >= c)
+	printf("Student has an C grade\n");
+
+else 
+	printf("Student has an D grade\n");
+
+return(0);
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\1c2bb3a40a82cba97b2937bc6825903a28ecfe91f993fc177a0f2ae003bcc7b1073eb49e35d3f0f69d6b612e8347e9c1b93306bf25a7e5390098c1a06845baac\002/**/
+
+#include <stdio.h>
+#include <math.h>
+
+int
+main(void)
+{
+
+double a, b ,c, d, e;
+
+printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > Thank you. ");
+scanf("%lf %lf %lf %lf", &a, &b, &c, &d);
+
+printf("Now enter student score (percent) >");
+scanf("%lf", &e);
+
+if (e >= a)
+	printf("Student has an A grade\n");
+
+else if (e >= b)
+	printf("Student has an B grade\n");
+
+else if (e >= c)
+	printf("Student has an C grade\n");
+
+else if (e >= d) 
+	printf("Student has an D grade\n");
+else
+	printf("Student has an F grade\n");
+
+return(0);
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\1c2bb3a40a82cba97b2937bc6825903a28ecfe91f993fc177a0f2ae003bcc7b1073eb49e35d3f0f69d6b612e8347e9c1b93306bf25a7e5390098c1a06845baac\003/**/
+
+#include <stdio.h>
+#include <math.h>
+
+int
+main(void)
+{
+
+double a, b ,c, d, e;
+
+printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > Thank you. ");
+scanf("%lf %lf %lf %lf", &a, &b, &c, &d);
+
+printf("Now enter student score (percent) >");
+scanf("%lf", &e);
+
+if (e >= a)
+	printf("Student has an A grade\n");
+
+else if (e >= b)
+	printf("Student has an B grade\n");
+
+else if (e >= c)
+	printf("Student has an C grade\n");
+
+else if (e >= d) 
+	printf("Student has an D grade\n");
+else
+	printf("Student has an F grade\n");
+
+return(0);
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\36d8008b13f6475ca8fa4553fea10042b0a6c623665065672051445c3464d61b29b47cb66321844a0264505a0f5ccf5aa6de072aa266b5a8b0cf13198380a389\000//
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+  float a, b, c, d, s;
+  printf ("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+  scanf ("%f %f %f %f",&a,&b,&c,&d);
+  printf ("Thank you. Now enter student score (percent) >");
+  scanf("%f", &s);
+  if (s>=a)
+    printf("Student has an A grade\n");
+  else if (s>=b)
+    printf("Student has an B grade\n");
+  else if (s>=c)
+    printf("Student has an C grade\n");
+  else if (s>=d)
+    printf("Student has an D grade\n");
+  else
+    printf("Student has an F grade\n");
+  return 0;
+}
+
+
+simi: 0.974358974359 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829\000/**/
+
+#include <stdio.h>
+
+int main(){
+	
+	float A, B, C, D, grade;
+
+	printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &A, &B, &C, &D);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &grade);
+
+	if (grade >=  A)
+		printf("Student has an A grade");
+
+	else if (A > grade && grade >= B)
+		printf("Student has an B grade");
+
+	else if (B > grade && grade >= C)
+		printf("Student has an C grade");
+	
+	else
+		printf("Student has an D grade");
+	
+	printf("\n");
+
+	return 0;
+}
+
+simi: 0.974358974359 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829\001/**/
+
+#include <stdio.h>
+
+int main(){
+	
+	float A, B, C, D, grade;
+
+	printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &A, &B, &C, &D);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &grade);
+
+	if (grade >=  A)
+		printf("Student has an A grade");
+
+	else if (A > grade && grade >= B)
+		printf("Student has an B grade");
+
+	else if (B > grade && grade >= C)
+		printf("Student has an C grade");
+	
+	else
+		printf("Student has an D grade");
+	
+	printf("\n");
+
+	return 0;
+}
+
+simi: 0.974358974359 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829\002/**/
+
+#include <stdio.h>
+
+int main(){
+	
+	float A, B, C, D, grade;
+
+	printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &A, &B, &C, &D);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &grade);
+
+	if (grade >=  A)
+		printf("Student has an A grade");
+
+	else if (A > grade && grade >= B)
+		printf("Student has an B grade");
+
+	else if (B > grade && grade >= C)
+		printf("Student has an C grade");
+	
+	else
+		printf("Student has an D grade");
+	
+	printf("\n");
+
+	return 0;
+}
+
+simi: 0.974358974359 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829\003/**/
+
+#include <stdio.h>
+
+int main(){
+	
+	float A, B, C, D, grade;
+
+	printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &A, &B, &C, &D);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &grade);
+
+	if (grade >=  A)
+		printf("Student has an A grade");
+
+	else if (A > grade && grade >= B)
+		printf("Student has an B grade");
+
+	else if (B > grade && grade >= C)
+		printf("Student has an C grade");
+	
+	else
+		printf("Student has an D grade");
+	
+	printf("\n");
+
+	return 0;
+}
+
+simi: 0.974358974359 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829\004/**/
+
+#include <stdio.h>
+
+int main(){
+	
+	float A, B, C, D, grade;
+
+	printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &A, &B, &C, &D);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &grade);
+
+	if (grade >=  A)
+		printf("Student has an A grade");
+
+	else if (A > grade && grade >= B)
+		printf("Student has an B grade");
+
+	else if (B > grade && grade >= C)
+		printf("Student has an C grade");
+	
+	else
+		printf("Student has an D grade");
+	
+	printf("\n");
+
+	return 0;
+}
+
+simi: 0.974358974359 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829\005/**/
+
+#include <stdio.h>
+
+int main(){
+	
+	float A, B, C, D, grade;
+
+	printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &A, &B, &C, &D);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &grade);
+
+	if (grade >=  A)
+		printf("Student has an A grade");
+
+	else if (A > grade && grade >= B)
+		printf("Student has an B grade");
+
+	else if (B > grade && grade >= C)
+		printf("Student has an C grade");
+	
+	else
+		printf("Student has an D grade");
+	
+	printf("\n");
+
+	return 0;
+}
+
+simi: 0.974358974359 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829\006/**/
+
+#include <stdio.h>
+
+int main(){
+	
+	float A, B, C, D, grade;
+
+	printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &A, &B, &C, &D);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &grade);
+
+	if (grade >=  A)
+		printf("Student has an A grade");
+
+	else if (A > grade && grade >= B)
+		printf("Student has an B grade");
+
+	else if (B > grade && grade >= C)
+		printf("Student has an C grade");
+	
+	else
+		printf("Student has an D grade");
+	
+	printf("\n");
+
+	return 0;
+}
+
+simi: 0.974358974359 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\3b2376ab97bb5d1a5dbbf2b45cf062db320757549c761936d19df05e856de894e45695014cd8063cdc22148b13fa1803b3c9e77356931d66f4fbec0efacf7829\007/**/
+
+#include <stdio.h>
+
+int main(){
+	
+	float A, B, C, D, grade;
+
+	printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &A, &B, &C, &D);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &grade);
+
+	if (grade >=  A)
+		printf("Student has an A grade");
+
+	else if (A > grade && grade >= B)
+		printf("Student has an B grade");
+
+	else if (B > grade && grade >= C)
+		printf("Student has an C grade");
+	
+	else
+		printf("Student has an D grade");
+	
+	printf("\n");
+
+	return 0;
+}
+
+simi: 0.948717948718 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f\001/**/
+
+#include <stdio.h>
+
+int main () {
+	
+	double A, B, C, D, //**/
+		   score;	   //**/
+	
+	printf("Enter thresholds for A, B, C, D\n");
+	printf("in that order, decreasing percentages > ");
+		scanf("%lf%lf%lf%lf", &A, &B, &C, &D);
+	printf("\nThank you. Now enter student score (percent) >");
+		scanf("%lf", &score);
+	
+	if (score >= A) {
+		printf("Student has an A grade\n");
+		}
+	else if (score >= B) {
+		printf("Student has an B grade\n");
+		}
+	else if (score >= C) {
+		printf("Student has an C grade\n");
+		}
+	else if (score < D) {
+		printf("Student has failed the course\n");
+		}
+	
+	return 0;
+	
+}
+
+simi: 0.948717948718 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f\002/**/
+
+#include <stdio.h>
+
+int main () {
+	
+	double A, B, C, D, //**/
+		   score;	   //**/
+	
+	printf("Enter thresholds for A, B, C, D\n");
+	printf("in that order, decreasing percentages > ");
+		scanf("%lf%lf%lf%lf", &A, &B, &C, &D);
+	printf("\nThank you. Now enter student score (percent) >");
+		scanf("%lf", &score);
+	
+	if (score >= A) {
+		printf("Student has an A grade\n");
+		}
+	else if (score >= B) {
+		printf("Student has an B grade\n");
+		}
+	else if (score >= C) {
+		printf("Student has an C grade\n");
+		}
+	else if (score < D) {
+		printf("Student has failed the course\n");
+		}
+	
+	return 0;
+	
+}
+
+simi: 0.948717948718 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f\003/**/
+
+#include <stdio.h>
+
+int main () {
+	
+	double A, B, C, D, //**/
+		   score;	   //**/
+	
+	printf("Enter thresholds for A, B, C, D\n");
+	printf("in that order, decreasing percentages > ");
+		scanf("%lf%lf%lf%lf", &A, &B, &C, &D);
+	printf("\nThank you. Now enter student score (percent) >");
+		scanf("%lf", &score);
+	
+	if (score >= A) {
+		printf("Student has an A grade\n");
+		}
+	else if (score >= B) {
+		printf("Student has an B grade\n");
+		}
+	else if (score >= C) {
+		printf("Student has an C grade\n");
+		}
+	else if (score < D) {
+		printf("Student has failed the course\n");
+		}
+	
+	return 0;
+	
+}
+
+simi: 0.948717948718 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f\004/**/
+
+#include <stdio.h>
+
+int main () {
+	
+	double A, B, C, D, //**/
+		   score;	   //**/
+	
+	printf("Enter thresholds for A, B, C, D\n");
+	printf("in that order, decreasing percentages > ");
+		scanf("%lf%lf%lf%lf", &A, &B, &C, &D);
+	printf("\nThank you. Now enter student score (percent) >");
+		scanf("%lf", &score);
+	
+	if (score >= A) {
+		printf("Student has an A grade\n");
+		}
+	else if (score >= B) {
+		printf("Student has an B grade\n");
+		}
+	else if (score >= C) {
+		printf("Student has an C grade\n");
+		}
+	else if (score < D) {
+		printf("Student has failed the course\n");
+		}
+	
+	return 0;
+	
+}
+
+simi: 0.948717948718 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f\005/**/
+
+#include <stdio.h>
+
+int main () {
+	
+	double A, B, C, D, //**/
+		   score;	   //**/
+	
+	printf("Enter thresholds for A, B, C, D\n");
+	printf("in that order, decreasing percentages > ");
+		scanf("%lf%lf%lf%lf", &A, &B, &C, &D);
+	printf("\nThank you. Now enter student score (percent) >");
+		scanf("%lf", &score);
+	
+	if (score >= A) {
+		printf("Student has an A grade\n");
+		}
+	else if (score >= B) {
+		printf("Student has an B grade\n");
+		}
+	else if (score >= C) {
+		printf("Student has an C grade\n");
+		}
+	else if (score < D) {
+		printf("Student has failed the course\n");
+		}
+	
+	return 0;
+	
+}
+
+simi: 0.948717948718 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f\006/**/
+
+#include <stdio.h>
+
+int main () {
+	
+	double A, B, C, D, //**/
+		   score;	   //**/
+	
+	printf("Enter thresholds for A, B, C, D\n");
+	printf("in that order, decreasing percentages > ");
+		scanf("%lf%lf%lf%lf", &A, &B, &C, &D);
+	printf("\nThank you. Now enter student score (percent) >");
+		scanf("%lf", &score);
+	
+	if (score >= A) {
+		printf("Student has an A grade\n");
+		}
+	else if (score >= B) {
+		printf("Student has an B grade\n");
+		}
+	else if (score >= C) {
+		printf("Student has an C grade\n");
+		}
+	else if (score < D) {
+		printf("Student has failed the course\n");
+		}
+	
+	return 0;
+	
+}
+
+simi: 0.948717948718 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f\007/**/
+
+#include <stdio.h>
+
+int main () {
+	
+	double A, B, C, D, //**/
+		   score;	   //**/
+	
+	printf("Enter thresholds for A, B, C, D\n");
+	printf("in that order, decreasing percentages > ");
+		scanf("%lf%lf%lf%lf", &A, &B, &C, &D);
+	printf("\nThank you. Now enter student score (percent) >");
+		scanf("%lf", &score);
+	
+	if (score >= A) {
+		printf("Student has an A grade\n");
+		}
+	else if (score >= B) {
+		printf("Student has an B grade\n");
+		}
+	else if (score >= C) {
+		printf("Student has an C grade\n");
+		}
+	else if (score < D) {
+		printf("Student has failed the course\n");
+		}
+	
+	return 0;
+	
+}
+
+simi: 0.948717948718 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f\008/**/
+
+#include <stdio.h>
+
+int main () {
+	
+	double A, B, C, D, //**/
+		   score;	   //**/
+	
+	printf("Enter thresholds for A, B, C, D\n");
+	printf("in that order, decreasing percentages > ");
+		scanf("%lf%lf%lf%lf", &A, &B, &C, &D);
+	printf("\nThank you. Now enter student score (percent) >");
+		scanf("%lf", &score);
+	
+	if (score >= A) {
+		printf("Student has an A grade\n");
+		}
+	else if (score >= B) {
+		printf("Student has an B grade\n");
+		}
+	else if (score >= C) {
+		printf("Student has an C grade\n");
+		}
+	else if (score < D) {
+		printf("Student has failed the course\n");
+		}
+	
+	return 0;
+	
+}
+
+simi: 0.948717948718 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f\009/**/
+
+#include <stdio.h>
+
+int main () {
+	
+	double A, B, C, D, //**/
+		   score;	   //**/
+	
+	printf("Enter thresholds for A, B, C, D\n");
+	printf("in that order, decreasing percentages > ");
+		scanf("%lf%lf%lf%lf", &A, &B, &C, &D);
+	printf("\nThank you. Now enter student score (percent) >");
+		scanf("%lf", &score);
+	
+	if (score >= A) {
+		printf("Student has an A grade\n");
+		}
+	else if (score >= B) {
+		printf("Student has an B grade\n");
+		}
+	else if (score >= C) {
+		printf("Student has an C grade\n");
+		}
+	else if (score < D) {
+		printf("Student has failed the course\n");
+		}
+	
+	return 0;
+	
+}
+
+simi: 0.948717948718 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f\010/**/
+
+#include <stdio.h>
+
+int main () {
+	
+	double A, B, C, D, //**/
+		   score;	   //**/
+	
+	printf("Enter thresholds for A, B, C, D\n");
+	printf("in that order, decreasing percentages > ");
+		scanf("%lf%lf%lf%lf", &A, &B, &C, &D);
+	printf("\nThank you. Now enter student score (percent) >");
+		scanf("%lf", &score);
+	
+	if (score >= A) {
+		printf("Student has an A grade\n");
+		}
+	else if (score >= B) {
+		printf("Student has an B grade\n");
+		}
+	else if (score >= C) {
+		printf("Student has an C grade\n");
+		}
+	else if (score < D) {
+		printf("Student has failed the course\n");
+		}
+	
+	return 0;
+	
+}
+
+simi: 0.948717948718 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f\011/**/
+
+#include <stdio.h>
+
+int main () {
+	
+	double A, B, C, D, //**/
+		   score;	   //**/
+	
+	printf("Enter thresholds for A, B, C, D\n");
+	printf("in that order, decreasing percentages > ");
+		scanf("%lf%lf%lf%lf", &A, &B, &C, &D);
+	printf("\nThank you. Now enter student score (percent) >");
+		scanf("%lf", &score);
+	
+	if (score >= A) {
+		printf("Student has an A grade\n");
+		}
+	else if (score >= B) {
+		printf("Student has an B grade\n");
+		}
+	else if (score >= C) {
+		printf("Student has an C grade\n");
+		}
+	else if (score < D) {
+		printf("Student has failed the course\n");
+		}
+	
+	return 0;
+	
+}
+
+simi: 0.948717948718 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f\012/**/
+
+#include <stdio.h>
+
+int main () {
+	
+	double A, B, C, D, //**/
+		   score;	   //**/
+	
+	printf("Enter thresholds for A, B, C, D\n");
+	printf("in that order, decreasing percentages > ");
+		scanf("%lf%lf%lf%lf", &A, &B, &C, &D);
+	printf("\nThank you. Now enter student score (percent) >");
+		scanf("%lf", &score);
+	
+	if (score >= A) {
+		printf("Student has an A grade\n");
+		}
+	else if (score >= B) {
+		printf("Student has an B grade\n");
+		}
+	else if (score >= C) {
+		printf("Student has an C grade\n");
+		}
+	else if (score < D) {
+		printf("Student has failed the course\n");
+		}
+	
+	return 0;
+	
+}
+
+simi: 0.948717948718 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\3cf6d33ab0357953aa5826c67dc74c4aa483f16ef04c973a68d58cda6f19ea712954b24f366f880b9c18b628c6605eabc4d3e80dc4aa120fac80fe680e2e708f\013/**/
+
+#include <stdio.h>
+
+int main () {
+	
+	double A, B, C, D, //**/
+		   score;	   //**/
+	
+	printf("Enter thresholds for A, B, C, D\n");
+	printf("in that order, decreasing percentages > ");
+		scanf("%lf%lf%lf%lf", &A, &B, &C, &D);
+	printf("\nThank you. Now enter student score (percent) >");
+		scanf("%lf", &score);
+	
+	if (score >= A) {
+		printf("Student has an A grade\n");
+		}
+	else if (score >= B) {
+		printf("Student has an B grade\n");
+		}
+	else if (score >= C) {
+		printf("Student has an C grade\n");
+		}
+	else if (score < D) {
+		printf("Student has failed the course\n");
+		}
+	
+	return 0;
+	
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7\000/**/
+
+#include <stdio.h>
+
+
+int main(void) {
+	float A, B, C, D, percent;
+	printf("Enter thresholds for A, B, C, D\n in that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &A, &B, &C, &D);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &percent);
+	
+	if (percent >= A)
+		printf("Student has an A grade\n");
+	else if (percent >= B)
+		printf("Student has a B grade\n");
+	else if (percent >= C)
+		printf("Student has a C grade\n");	
+	else if (percent >= D)
+		printf("Student has a D grade\n");
+	else 
+		printf("Student has a F grade\n");	
+		
+	return (0);
+}
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7\001/**/
+
+#include <stdio.h>
+
+
+int main(void) {
+	float A, B, C, D, percent;
+	printf("Enter thresholds for A, B, C, D\n in that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &A, &B, &C, &D);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &percent);
+	
+	if (percent >= A)
+		printf("Student has an A grade\n");
+	else if (percent >= B)
+		printf("Student has a B grade\n");
+	else if (percent >= C)
+		printf("Student has a C grade\n");	
+	else if (percent >= D)
+		printf("Student has a D grade\n");
+	else 
+		printf("Student has a F grade\n");	
+		
+	return (0);
+}
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7\002/**/
+
+#include <stdio.h>
+
+
+int main(void) {
+	float A, B, C, D, percent;
+	printf("Enter thresholds for A, B, C, D\n in that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &A, &B, &C, &D);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &percent);
+	
+	if (percent >= A)
+		printf("Student has an A grade\n");
+	else if (percent >= B)
+		printf("Student has a B grade\n");
+	else if (percent >= C)
+		printf("Student has a C grade\n");	
+	else if (percent >= D)
+		printf("Student has a D grade\n");
+	else 
+		printf("Student has a F grade\n");	
+		
+	return (0);
+}
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7\003/**/
+
+#include <stdio.h>
+
+
+int main(void) {
+	float A, B, C, D, percent;
+	printf("Enter thresholds for A, B, C, D\n");
+	printf("in that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &A, &B, &C, &D);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &percent);
+	
+	if (percent >= A)
+		printf("Student has an A grade\n");
+	else if (percent >= B)
+		printf("Student has an B grade\n");
+	else if (percent >= C)
+		printf("Student has an C grade\n");
+	else if (percent >= D)
+		printf("Student has an D grade\n");
+	else 
+		printf("Student has an F grade\n");	
+		
+
+	return (0);
+}
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7\004/**/
+
+#include <stdio.h>
+
+
+int main(void) {
+	float A, B, C, D, percent;
+	printf("Enter thresholds for A, B, C, D\n");
+	printf("in that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &A, &B, &C, &D);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &percent);
+	
+	if (percent >= A)
+		printf("Student has an A grade\n");
+	else if (percent >= B)
+		printf("Student has an B grade\n");
+	else if (percent >= C)
+		printf("Student has an C grade\n");
+	else if (percent >= D)
+		printf("Student has an D grade\n");
+	else 
+		printf("Student has an F grade\n");	
+		
+
+	return (0);
+}
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7\005/**/
+
+#include <stdio.h>
+
+
+int main(void) {
+	float A, B, C, D, percent;
+	printf("Enter thresholds for A, B, C, D\n");
+	printf("in that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &A, &B, &C, &D);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &percent);
+	
+	if (percent >= A)
+		printf("Student has an A grade\n");
+	else if (percent >= B)
+		printf("Student has an B grade\n");
+	else if (percent >= C)
+		printf("Student has an C grade\n");
+	else if (percent >= D)
+		printf("Student has an D grade\n");
+	else 
+		printf("Student has an F grade\n");	
+		
+
+	return (0);
+}
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7\006/**/
+
+#include <stdio.h>
+
+
+int main(void) {
+	float A, B, C, D, percent;
+	printf("Enter thresholds for A, B, C, D\n");
+	printf("in that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &A, &B, &C, &D);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &percent);
+	
+	if (percent >= A)
+		printf("Student has an A grade\n");
+	else if (percent >= B)
+		printf("Student has an B grade\n");
+	else if (percent >= C)
+		printf("Student has an C grade\n");
+	else if (percent >= D)
+		printf("Student has an D grade\n");
+	else 
+		printf("Student has an F grade\n");	
+		
+
+	return (0);
+}
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7\007/**/
+
+#include <stdio.h>
+
+
+int main(void) {
+	float A, B, C, D, percent;
+	printf("Enter thresholds for A, B, C, D\n");
+	printf("in that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &A, &B, &C, &D);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &percent);
+	
+	if (percent >= A)
+		printf("Student has an A grade\n");
+	else if (percent >= B)
+		printf("Student has an B grade\n");
+	else if (percent >= C)
+		printf("Student has an C grade\n");
+	else if (percent >= D)
+		printf("Student has an D grade\n");
+	else 
+		printf("Student has an F grade\n");	
+		
+
+	return (0);
+}
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7\008/**/
+
+#include <stdio.h>
+
+
+int main(void) {
+	float A, B, C, D, percent;
+	printf("Enter thresholds for A, B, C, D\n");
+	printf("in that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &A, &B, &C, &D);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &percent);
+	
+	if (percent >= A)
+		printf("Student has an A grade\n");
+	else if (percent >= B)
+		printf("Student has an B grade\n");
+	else if (percent >= C)
+		printf("Student has an C grade\n");
+	else if (percent >= D)
+		printf("Student has an D grade\n");
+	else 
+		printf("Student has an F grade\n");	
+		
+
+	return (0);
+}
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7\009/**/
+
+#include <stdio.h>
+
+
+int main(void) {
+	float A, B, C, D, percent;
+	printf("Enter thresholds for A, B, C, D\n");
+	printf("in that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &A, &B, &C, &D);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &percent);
+	
+	if (percent >= A)
+		printf("Student has an A grade\n");
+	else if (percent >= B)
+		printf("Student has an B grade\n");
+	else if (percent >= C)
+		printf("Student has an C grade\n");
+	else if (percent >= D)
+		printf("Student has an D grade\n");
+	else 
+		printf("Student has an F grade\n");	
+		
+
+	return (0);
+}
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7\010/**/
+
+#include <stdio.h>
+
+
+int main(void) {
+	float A, B, C, D, percent;
+	printf("Enter thresholds for A, B, C, D\n");
+	printf("in that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &A, &B, &C, &D);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &percent);
+	
+	if (percent >= A)
+		printf("Student has an A grade\n");
+	else if (percent >= B)
+		printf("Student has an B grade\n");
+	else if (percent >= C)
+		printf("Student has an C grade\n");
+	else if (percent >= D)
+		printf("Student has an D grade\n");
+	else 
+		printf("Student has an F grade\n");	
+		
+
+	return (0);
+}
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7\011/**/
+
+#include <stdio.h>
+
+
+int main(void) {
+	float A, B, C, D, percent;
+	printf("Enter thresholds for A, B, C, D\n");
+	printf("in that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &A, &B, &C, &D);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &percent);
+	
+	if (percent >= A)
+		printf("Student has an A grade\n");
+	else if (percent >= B)
+		printf("Student has an B grade\n");
+	else if (percent >= C)
+		printf("Student has an C grade\n");
+	else if (percent >= D)
+		printf("Student has an D grade\n");
+	else 
+		printf("Student has an F grade\n");	
+		
+
+	return (0);
+}
+simi: 0.948717948718 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\48b82975576f07f162163145b334648a73321d003a0a8cd4577172e48ce4836e63953dffd4460a9a7aadc511a695ff93de0ce2baf953e4b78b747440caa736a6\000/**/
+#include <math.h>
+#include <stdio.h>
+int main(){
+float a, b, c, d,e;
+printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages >");
+scanf("%f%f%f%f", &a,&b,&c,&d);
+printf("Thank you. Now enter student score (percent) >");
+scanf("%f",&e);
+if (e>=a)
+printf("Student has an A grade\n");
+else if(e>=b)
+printf("Student has an B grade\n");
+else if (e>=c)
+printf("Student has an C grade\n");
+else if(e>=d)
+printf("Student has an D grade\n");
+
+return 0;
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\48b82975576f07f162163145b334648a73321d003a0a8cd4577172e48ce4836e63953dffd4460a9a7aadc511a695ff93de0ce2baf953e4b78b747440caa736a6\001/**/
+#include <math.h>
+#include <stdio.h>
+int main(){
+float a, b, c, d,e;
+printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages >");
+scanf("%f%f%f%f", &a,&b,&c,&d);
+printf("Thank you. Now enter student score (percent) >");
+scanf("%f",&e);
+if (e>=a)
+printf("Student has an A grade\n");
+else if(e>=b)
+printf("Student has an B grade\n");
+else if (e>=c)
+printf("Student has an C grade\n");
+else if(e>=d)
+printf("Student has an D grade\n");
+else printf("Student has failed the course\n");
+return 0;
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\5b504b3547416bfd54f138b3caa529ad72d157744b787e0e6f4745a2ff0fc5cc33bc87904b2d7cda9c7858087b2e04ece46d53fe9edd208f68d30a0ae70f363f\000//
+//
+#include <stdio.h>
+
+int main (void) {
+	float a, b, c, d, grade;
+	printf("Enter thresholds for A, B, C, D\n");
+	printf("in that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &a, &b, &c, &d);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &grade);
+	if (grade>=a)
+		printf("Student has an A grade\n");
+	else if (grade>=b)
+                printf("Student has an B grade\n");
+	else if (grade>=c)
+                printf("Student has an C grade\n");
+	else if (grade>=d)
+                printf("Student has an D grade\n");
+	else
+		printf("Student has an F grade\n");
+
+	return(0);
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\75c98d3d90ca9a022bbf45421aa04a07f37da8a126811259bc4873e9458baab0a4863fa6664e5735c60172b34a16ed5acef892635f4f16e6d5737fb3685d0356\001/**/
+#include <stdio.h>
+#include <math.h>
+int main () {
+float A, B, C, D, grade;
+printf("Enter thresholds for A, B, C, D\n");
+printf("in that order, decreasing percentages > ");
+scanf("%f%f%f%f",&A,&B,&C,&D);
+printf("Thank you. Now enter student score (percent) >");
+scanf("%f",&grade);
+if (grade < 60)
+	printf("Student has failed the course\n");
+else if (grade < 70)
+	printf("Student has an D grade\n");
+else if (grade < 80)
+	printf("Student has an C grade\n");
+else if (grade < 90)
+	printf("Student has an B grade\n");
+else
+	printf("Student has an A grade\n");
+return 0;
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\75c98d3d90ca9a022bbf45421aa04a07f37da8a126811259bc4873e9458baab0a4863fa6664e5735c60172b34a16ed5acef892635f4f16e6d5737fb3685d0356\002/**/
+#include <stdio.h>
+#include <math.h>
+int main () {
+float A, B, C, D, grade;
+printf("Enter thresholds for A, B, C, D\n");
+printf("in that order, decreasing percentages > ");
+scanf("%f%f%f%f",&A,&B,&C,&D);
+printf("Thank you. Now enter student score (percent) >");
+scanf("%f",&grade);
+if (grade < 60)
+	printf("Student has failed the course\n");
+else if (grade < 70)
+	printf("Student has an D grade\n");
+else if (grade < 80)
+	printf("Student has an C grade\n");
+else if (grade < 90)
+	printf("Student has an B grade\n");
+else
+	printf("Student has an A grade\n");
+return 0;
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\75c98d3d90ca9a022bbf45421aa04a07f37da8a126811259bc4873e9458baab0a4863fa6664e5735c60172b34a16ed5acef892635f4f16e6d5737fb3685d0356\003/**/
+#include <stdio.h>
+#include <math.h>
+int main () {
+float A, B, C, D, grade;
+printf("Enter thresholds for A, B, C, D\n");
+printf("in that order, decreasing percentages > ");
+scanf("%f%f%f%f",&A,&B,&C,&D);
+printf("Thank you. Now enter student score (percent) >");
+scanf("%f",&grade);
+if (grade < 60)
+	printf("Student has failed the course\n");
+else if (grade < 70)
+	printf("Student has an D grade\n");
+else if (grade < 80)
+	printf("Student has an C grade\n");
+else if (grade < 90)
+	printf("Student has an B grade\n");
+else
+	printf("Student has an A grade\n");
+return 0;
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\75c98d3d90ca9a022bbf45421aa04a07f37da8a126811259bc4873e9458baab0a4863fa6664e5735c60172b34a16ed5acef892635f4f16e6d5737fb3685d0356\004/**/
+#include <stdio.h>
+#include <math.h>
+int main () {
+float A, B, C, D, grade;
+printf("Enter thresholds for A, B, C, D\n");
+printf("in that order, decreasing percentages > ");
+scanf("%f%f%f%f",&A,&B,&C,&D);
+printf("Thank you. Now enter student score (percent) >");
+scanf("%f",&grade);
+if (grade < 60)
+	printf("Student has failed the course\n");
+else if (grade < 70)
+	printf("Student has an D grade\n");
+else if (grade < 80)
+	printf("Student has an C grade\n");
+else if (grade < 90)
+	printf("Student has an B grade\n");
+else
+	printf("Student has an A grade\n");
+return 0;
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\833bd42c11f7407d63f604b8ba3b7927e22e04e91884c959f01083cda7d5019610705b94a89c09cd1caa3fd1d58eee24b48b85b523db0fa3fc302e7af2dff93d\000/**/
+
+#include <stdio.h>
+
+int
+main(void)
+{
+double grade_a, grade_b, grade_c, grade_d, student_score;
+
+printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+scanf("%lf%lf%lf%lf",&grade_a, &grade_b, &grade_c, &grade_d);
+
+printf("Thank you. Now enter student score (percent) >");
+scanf("%lf",&student_score);
+
+if (student_score >= grade_a) {
+	printf("Student has an A grade\n");
+}
+else if (student_score >= grade_b) {
+	printf("Student has an B grade\n");
+}
+else if (student_score >= grade_c) {
+	printf("Student has an C grade\n");
+}
+else if (student_score >= grade_d) {
+	printf("Student has an D grade\n");
+}
+else {printf("Student has an F grade\n");}
+
+return 0;
+
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\833bd42c11f7407d63f604b8ba3b7927e22e04e91884c959f01083cda7d5019610705b94a89c09cd1caa3fd1d58eee24b48b85b523db0fa3fc302e7af2dff93d\001/**/
+
+#include <stdio.h>
+
+int
+main(void)
+{
+double grade_a, grade_b, grade_c, grade_d, student_score;
+
+printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+scanf("%lf%lf%lf%lf",&grade_a, &grade_b, &grade_c, &grade_d);
+
+printf("Thank you. Now enter student score (percent) >");
+scanf("%lf",&student_score);
+
+if (student_score >= grade_a) {
+	printf("Student has an A grade\n");
+}
+else if (student_score >= grade_b) {
+	printf("Student has an B grade\n");
+}
+else if (student_score >= grade_c) {
+	printf("Student has an C grade\n");
+}
+else if (student_score >= grade_d) {
+	printf("Student has an D grade\n");
+}
+else {printf("Student has an F grade\n");}
+
+return 0;
+
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\833bd42c11f7407d63f604b8ba3b7927e22e04e91884c959f01083cda7d5019610705b94a89c09cd1caa3fd1d58eee24b48b85b523db0fa3fc302e7af2dff93d\002/**/
+
+#include <stdio.h>
+
+int
+main(void)
+{
+double grade_a, grade_b, grade_c, grade_d, student_score;
+
+printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+scanf("%lf%lf%lf%lf",&grade_a, &grade_b, &grade_c, &grade_d);
+
+printf("Thank you. Now enter student score (percent) >");
+scanf("%lf",&student_score);
+
+if (student_score >= grade_a) {
+	printf("Student has an A grade\n");
+}
+else if (student_score >= grade_b) {
+	printf("Student has an B grade\n");
+}
+else if (student_score >= grade_c) {
+	printf("Student has an C grade\n");
+}
+else if (student_score >= grade_d) {
+	printf("Student has an D grade\n");
+}
+else {printf("Student has an F grade\n");}
+
+return 0;
+
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\833bd42c11f7407d63f604b8ba3b7927e22e04e91884c959f01083cda7d5019610705b94a89c09cd1caa3fd1d58eee24b48b85b523db0fa3fc302e7af2dff93d\003/**/
+
+#include <stdio.h>
+
+int
+main(void)
+{
+double grade_a, grade_b, grade_c, grade_d, student_score;
+
+printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+scanf("%lf%lf%lf%lf",&grade_a, &grade_b, &grade_c, &grade_d);
+
+printf("Thank you. Now enter student score (percent) >");
+scanf("%lf",&student_score);
+
+if (student_score >= grade_a) {
+	printf("Student has an A grade\n");
+}
+else if (student_score >= grade_b) {
+	printf("Student has an B grade\n");
+}
+else if (student_score >= grade_c) {
+	printf("Student has an C grade\n");
+}
+else if (student_score >= grade_d) {
+	printf("Student has an D grade\n");
+}
+else {printf("Student has an F grade\n");}
+
+return 0;
+
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\92b7dd1241c2688476a763b691eadd80a1aa750e7c26955f8c3a3d2b11233c05cd51469a029d22c1ba0b6b4203484f2d056d1bdf5cef075f583fbca4292f1a40\002/**/
+
+#include<stdio.h>
+#include<math.h>
+
+int 
+main(){
+
+float A, B, C, D, score;
+
+printf("Enter thresholds for A, B, C, D\n");
+printf("in that order, decreasing percentages > ");
+scanf("%f""%f""%f""%f",&A,&B,&C,&D);
+
+printf("Thank you. Now enter student score (percent) >");
+scanf("%f",&score);
+
+if(score >= A){ printf("Student has a A grade\n");}
+else if(score >= B){printf("Student has a B grade\n");}
+else if(score >= C){printf("Student has a C grade\n");}
+else if(score >= D){printf("Student has a D grade\n");}
+else{printf("Student has failed the course\n");}
+
+return (0);
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\95362737dcd262ddd67b0fe1381c25f1e6b885860b4e51efb6f57223dceb77b4c6c7d855e3fe891c10cd51b48c9b052cf2c74f181a28d3020d77a4a2d6e4db18\006//
+#include <stdio.h>
+
+int
+main(void)
+{
+	float a, b, c, d, score;
+	printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &a, &b, &c, &d);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &score);
+	if (score>=a)
+	printf("Student has a A grade\n");
+	else if (score>=b)
+	printf("Student has a B grade\n");
+	else if (score>=c)
+	printf("Student has a C grade\n");
+	else if (score>=d)
+	printf("Student has a D grade\n");
+	else
+	printf("Student has failed the course\n");
+
+return(0);
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\95362737dcd262ddd67b0fe1381c25f1e6b885860b4e51efb6f57223dceb77b4c6c7d855e3fe891c10cd51b48c9b052cf2c74f181a28d3020d77a4a2d6e4db18\015//
+#include <stdio.h>
+
+int
+main(void)
+{
+	float a, b, c, d, score;
+	printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &a, &b, &c, &d);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &score);
+	if (score >= a)
+	printf("Student has a A grade\n");
+	else if (score >= b)
+	printf("Student has a B grade\n");
+	else if (score >= c)
+	printf("Student has a C grade\n");
+	else if (score >= d)
+	printf("Student has a D grade\n");
+	else
+	printf("Student has failed the course\n");
+
+return(0);
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\95362737dcd262ddd67b0fe1381c25f1e6b885860b4e51efb6f57223dceb77b4c6c7d855e3fe891c10cd51b48c9b052cf2c74f181a28d3020d77a4a2d6e4db18\016//
+#include <stdio.h>
+
+int
+main(void)
+{
+	float a, b, c, d, score;
+	printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &a, &b, &c, &d);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &score);
+	if (score >= a)
+		printf("Student has a A grade\n");
+
+	else if (score >= b)
+		printf("Student has a B grade\n");
+
+	else if (score >= c)
+		printf("Student has a C grade\n");
+
+	else if (score >= d)
+		printf("Student has a D grade\n");
+	
+	else
+		printf("Student has failed the course\n");
+return(0);
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\95362737dcd262ddd67b0fe1381c25f1e6b885860b4e51efb6f57223dceb77b4c6c7d855e3fe891c10cd51b48c9b052cf2c74f181a28d3020d77a4a2d6e4db18\017//
+#include <stdio.h>
+
+int
+main(void)
+{
+	float a, b, c, d, score;
+	printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &a, &b, &c, &d);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f", &score);
+	if (score >= a)
+		printf("Student has a A grade\n");
+
+	else if (score >= b)
+		printf("Student has a B grade\n");
+
+	else if (score >= c)
+		printf("Student has a C grade\n");
+
+	else if (score >= d)
+		printf("Student has a D grade\n");
+	
+	else
+		printf("Student has failed the course\n");
+return(0);
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\95362737dcd262ddd67b0fe1381c25f1e6b885860b4e51efb6f57223dceb77b4c6c7d855e3fe891c10cd51b48c9b052cf2c74f181a28d3020d77a4a2d6e4db18\018//
+#include <stdio.h>
+
+int
+main(void)
+{
+	float a, b, c, d;
+	double score;
+	printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+	scanf("%f%f%f%f", &a, &b, &c, &d);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%lf", &score);
+	if (score >= a)
+		printf("Student has a A grade\n");
+
+	else if (score >= b)
+		printf("Student has a B grade\n");
+
+	else if (score >= c)
+		printf("Student has a C grade\n");
+
+	else if (score >= d)
+		printf("Student has a D grade\n");
+	
+	else
+		printf("Student has failed the course\n");
+return(0);
+}
+
+simi: 0.948717948718 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\97f6b15278788d90f6a0159ac65668f63f182fadf165e78bfecd7750de89f8611759f8d8206b3505407f7de14d124db7b0309a53e222c538c4dedadc6fa24fe6\000/**/
+#include <stdio.h>
+#include <math.h>
+int main(){
+float a, b, c, d, score; 
+printf("Enter thresholds for A, B, C, D\n");
+printf("in that order, decreasing percentages > ");
+scanf("%f%f%f%f", &a, &b, &c, &d);
+printf("Thank you. Now enter student score (percent) >");
+scanf("%f", &score);
+if (score >= a)
+	printf("Student has an A grade\n");
+else if (score >= b)
+	printf("Student has an B grade\n");
+else if (score >= c)
+	printf("Student has an C grade\n");
+else if (score >= d)
+	printf("Student has an D grade\n");
+return 0;}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\97f6b15278788d90f6a0159ac65668f63f182fadf165e78bfecd7750de89f8611759f8d8206b3505407f7de14d124db7b0309a53e222c538c4dedadc6fa24fe6\008/**/
+#include <stdio.h>
+#include <math.h>
+int main(){
+float a, b, c, d, score; 
+printf("Enter thresholds for A, B, C, D\n");
+printf("in that order, decreasing percentages > ");
+scanf("%f%f%f%f", &a, &b, &c, &d);
+printf("Thank you. Now enter student score (percent) >\n");
+scanf("%f", &score);
+if (score >= a)
+	printf("Student has an A grade\n");
+else if (score >= b)
+	printf("Student has an B grade\n");
+else if (score >= c)
+	printf("Student has an C grade\n");
+else if (score >= d)
+	printf("Student has an D grade\n");
+else
+	printf("Student has failed the course\n");
+return 0;}
+
+simi: 0.928571428571 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\aaceaf4ad658a90db957967d2852b7dfa81b42f4ab8dbdf2f7c9847a6072e1741a6b0cbd2ea52f5669f2da1cdf925ec565d257320cf93b97bc9bc99f000e1871\000//
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+  float n, a, b, c, d;
+  
+  printf("Enter thresholds for A, B, C, D\n");
+  printf("in that order, decreasing percentages > ");
+  scanf("%f%f%f%f", &a, &b, &c, &d);
+  
+  printf("Thank you. Now enter student score (percent) >");
+  scanf("%f", &n);
+  
+  if (n>=a)
+    printf("Student has an A grade\n");
+  
+  if ((n<a) && (n>=b))
+    printf("Student has an B grade\n");
+    
+  if ((n<b) && (n>=c))
+    printf("Student has an C grade\n");
+    
+  if((n<c) && (n>=d))
+    printf("Student has an D grade\n");
+  
+  
+  	
+  return 0;
+}
+
+simi: 0.928571428571 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\aaceaf4ad658a90db957967d2852b7dfa81b42f4ab8dbdf2f7c9847a6072e1741a6b0cbd2ea52f5669f2da1cdf925ec565d257320cf93b97bc9bc99f000e1871\001//
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+  float n, a, b, c, d;
+  
+  printf("Enter thresholds for A, B, C, D\n");
+  printf("in that order, decreasing percentages > ");
+  scanf("%f%f%f%f", &a, &b, &c, &d);
+  
+  printf("Thank you. Now enter student score (percent) >");
+  scanf("%f", &n);
+  
+  if (n>=a)
+    printf("Student has an A grade\n");
+  
+  if ((n<a) && (n>=b))
+    printf("Student has an B grade\n");
+    
+  if ((n<b) && (n>=c))
+    printf("Student has an C grade\n");
+    
+  if((n<c) && (n>=d))
+    printf("Student has an D grade\n");
+  
+  
+  	
+  return 0;
+}
+
+simi: 0.928571428571 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\aaceaf4ad658a90db957967d2852b7dfa81b42f4ab8dbdf2f7c9847a6072e1741a6b0cbd2ea52f5669f2da1cdf925ec565d257320cf93b97bc9bc99f000e1871\002//
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+  float n, a, b, c, d;
+  
+  printf("Enter thresholds for A, B, C, D\n");
+  printf("in that order, decreasing percentages > ");
+  scanf("%f%f%f%f", &a, &b, &c, &d);
+  
+  printf("Thank you. Now enter student score (percent) >");
+  scanf("%f", &n);
+  
+  if (n>=a)
+    printf("Student has an A grade\n");
+  
+  if ((n<a) && (n>=b))
+    printf("Student has an B grade\n");
+    
+  if ((n<b) && (n>=c))
+    printf("Student has an C grade\n");
+    
+  if((n<c) && (n>=d))
+    printf("Student has an D grade\n");
+  
+  
+  	
+  return 0;
+}
+
+simi: 0.928571428571 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\aaceaf4ad658a90db957967d2852b7dfa81b42f4ab8dbdf2f7c9847a6072e1741a6b0cbd2ea52f5669f2da1cdf925ec565d257320cf93b97bc9bc99f000e1871\003//
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+  float n, a, b, c, d;
+  
+  printf("Enter thresholds for A, B, C, D\n");
+  printf("in that order, decreasing percentages > ");
+  scanf("%f%f%f%f", &a, &b, &c, &d);
+  
+  printf("Thank you. Now enter student score (percent) >");
+  scanf("%f", &n);
+  
+  if (n>=a)
+    printf("Student has an A grade\n");
+  
+  if ((n<a) && (n>=b))
+    printf("Student has an B grade\n");
+    
+  if ((n<b) && (n>=c))
+    printf("Student has an C grade\n");
+    
+  if((n<c) && (n>=d))
+    printf("Student has an D grade\n");
+  
+  
+  	
+  return 0;
+}
+
+simi: 0.928571428571 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\aaceaf4ad658a90db957967d2852b7dfa81b42f4ab8dbdf2f7c9847a6072e1741a6b0cbd2ea52f5669f2da1cdf925ec565d257320cf93b97bc9bc99f000e1871\004//
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+  float n, a, b, c, d;
+  
+  printf("Enter thresholds for A, B, C, D\n");
+  printf("in that order, decreasing percentages > ");
+  scanf("%f%f%f%f", &a, &b, &c, &d);
+  
+  printf("Thank you. Now enter student score (percent) >");
+  scanf("%f", &n);
+  
+  if (n>=a)
+    printf("Student has an A grade\n");
+  
+  if ((n<a) && (n>=b))
+    printf("Student has an B grade\n");
+    
+  if ((n<b) && (n>=c))
+    printf("Student has an C grade\n");
+    
+  if((n<c) && (n>=d))
+    printf("Student has an D grade\n");
+  
+  
+  	
+  return 0;
+}
+
+simi: 0.928571428571 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\aaceaf4ad658a90db957967d2852b7dfa81b42f4ab8dbdf2f7c9847a6072e1741a6b0cbd2ea52f5669f2da1cdf925ec565d257320cf93b97bc9bc99f000e1871\005//
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+  float n, a, b, c, d;
+  
+  printf("Enter thresholds for A, B, C, D\n");
+  printf("in that order, decreasing percentages > ");
+  scanf("%f%f%f%f", &a, &b, &c, &d);
+  
+  printf("Thank you. Now enter student score (percent) >");
+  scanf("%f", &n);
+  
+  if (n>=a)
+    printf("Student has an A grade\n");
+  
+  if ((n<a) && (n>=b))
+    printf("Student has an B grade\n");
+    
+  if ((n<b) && (n>=c))
+    printf("Student has an C grade\n");
+    
+  if((n<c) && (n>=d))
+    printf("Student has an D grade\n");
+  
+  
+  	
+  return 0;
+}
+
+simi: 0.928571428571 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\aaceaf4ad658a90db957967d2852b7dfa81b42f4ab8dbdf2f7c9847a6072e1741a6b0cbd2ea52f5669f2da1cdf925ec565d257320cf93b97bc9bc99f000e1871\006//
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+  float n, a, b, c, d;
+  
+  printf("Enter thresholds for A, B, C, D\n");
+  printf("in that order, decreasing percentages > ");
+  scanf("%f%f%f%f", &a, &b, &c, &d);
+  
+  printf("Thank you. Now enter student score (percent) >");
+  scanf("%f", &n);
+  
+  if (n>=a)
+    printf("Student has an A grade\n");
+  
+  if ((n<a) && (n>=b))
+    printf("Student has an B grade\n");
+    
+  if ((n<b) && (n>=c))
+    printf("Student has an C grade\n");
+    
+  if((n<c) && (n>=d))
+    printf("Student has an D grade\n");
+  
+  
+  	
+  return 0;
+}
+
+simi: 0.948717948718 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\af81ffd4bc47e4f84cbf87051d82d15af14833eaba6c57ae82fc503a67eb939f3e6552182124605c38a77a6774f41fac2cc95082320ba5e29d303277c098c4ae\009/**/
+//**/
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+
+float a, b, c, d, score;
+
+printf("Enter thresholds for A, B, C, D\n");
+printf("in that order, decreasing percentages > ");
+scanf("%f""%f""%f""%f", &a, &b, &c, &d);
+printf("Thank you. Now enter student score (percent) >");
+scanf("%f", &score);
+
+if(score>=a)
+printf("Student has an A grade\n");
+
+else if (score>=b)
+printf("Student has an B grade\n");
+
+else if (score>=c)
+printf("Student has an C grade\n");
+
+else if (score>=d)
+printf("Student has an D grade\n");
+
+return(0);
+
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\c9d718f379a877bd04e4544ee830a1c4c256bb4f104f214afd1ccaf81e7b25dea689895678bb1e6f817d8b0939eb175f8e847130f30a9a22e980d38125933516\000/**/
+
+#include<stdio.h>
+
+int main(){
+	float grade,per1,per2,per3,per4;
+	printf("Enter thresholds for A, B, C, D\n");
+	printf("in that order, decreasing percentages > ");
+	scanf("%f%f%f%f",&per1,&per2,&per3,&per4);
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%f",&grade);
+	if (grade>=per1)
+		printf("Student has an A grade\n");
+	else if(grade>=per2)
+		printf("Student has an B grade\n");
+	else if(grade>=per3)
+		printf("Studnet has an C grade\n");
+	else if(grade>=per4)
+		printf("Student has an D grade\n");
+	else
+		printf("Studnet has failed the course\n");
+	return (0);
+}
+
+simi: 0.871794871795 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\cd2d9b5b5cff96b07c5b22c0d139ffa2aa36b01823c9eb4db6eca19065a0ce2c4d2516bfcc2f1bc95daeae5b0bbd5e9c15b83feda776735e7bc3de6c49d25144\006/**/
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+
+float num1,num2,num3,num4; //**/
+float score; //**/
+
+printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+scanf("%f%f%f%f",&num1,&num2,&num3,&num4);
+
+printf("Thank you. Now enter student score (percent) >");
+scanf("%f",&score);
+
+if (score>num1)
+printf("Student has an A grade");
+else if (score>=num2)
+printf("Student has an B grade");
+else if (score>=num3)
+printf("Student has an C grade");
+else 
+printf("Student has an D grade");
+
+
+
+
+return 0;
+}
+
+simi: 0.948717948718 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\cd2d9b5b5cff96b07c5b22c0d139ffa2aa36b01823c9eb4db6eca19065a0ce2c4d2516bfcc2f1bc95daeae5b0bbd5e9c15b83feda776735e7bc3de6c49d25144\007/**/
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+
+float num1,num2,num3,num4; //**/
+float score; //**/
+
+printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+scanf("%f%f%f%f",&num1,&num2,&num3,&num4);
+
+printf("Thank you. Now enter student score (percent) >");
+scanf("%f",&score);
+
+if (score>num1)
+printf("Student has an A grade");
+else if (score>=num2)
+printf("Student has an B grade");
+else if (score>=num3)
+printf("Student has an C grade");
+else if (score>=num4)
+printf("Student has an D grade");
+
+
+
+
+return 0;
+}
+
+simi: 0.948717948718 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\cd2d9b5b5cff96b07c5b22c0d139ffa2aa36b01823c9eb4db6eca19065a0ce2c4d2516bfcc2f1bc95daeae5b0bbd5e9c15b83feda776735e7bc3de6c49d25144\008/**/
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+
+float num1,num2,num3,num4; //**/
+float score; //**/
+
+printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+scanf("%f%f%f%f",&num1,&num2,&num3,&num4);
+
+printf("Thank you. Now enter student score (percent) >");
+scanf("%f",&score);
+
+if (score>=num1)
+printf("Student has an A grade");
+else if (score>=num2)
+printf("Student has an B grade");
+else if (score>=num3)
+printf("Student has an C grade");
+else if (score>=num4)
+printf("Student has an D grade");
+
+
+
+
+return 0;
+}
+
+simi: 0.974358974359 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\cd2d9b5b5cff96b07c5b22c0d139ffa2aa36b01823c9eb4db6eca19065a0ce2c4d2516bfcc2f1bc95daeae5b0bbd5e9c15b83feda776735e7bc3de6c49d25144\009/**/
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+
+float num1,num2,num3,num4; //**/
+float score; //**/
+
+printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+scanf("%f%f%f%f",&num1,&num2,&num3,&num4);
+
+printf("Thank you. Now enter student score (percent) >");
+scanf("%f",&score);
+
+if (score>=num1)
+printf("Student has an A grade");
+else if (score>=num2)
+printf("Student has an B grade");
+else if (score>=num3)
+printf("Student has an C grade");
+else if (score>=num4)
+printf("Student has an D grade");
+
+
+
+printf("\n");
+
+return 0;
+}
+
+simi: 0.948717948718 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\cd2d9b5b5cff96b07c5b22c0d139ffa2aa36b01823c9eb4db6eca19065a0ce2c4d2516bfcc2f1bc95daeae5b0bbd5e9c15b83feda776735e7bc3de6c49d25144\010/**/
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+
+float num1,num2,num3,num4; //**/
+float score; //**/
+
+printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+scanf("%f%f%f%f",&num1,&num2,&num3,&num4);
+
+printf("Thank you. Now enter student score (percent) >");
+scanf("%f",&score);
+
+if (score>=num1)
+printf("Student has an A grade\n");
+else if (score>=num2)
+printf("Student has an B grade\n");
+else if (score>=num3)
+printf("Student has an C grade\n");
+else if (score>=num4)
+printf("Student has an D grade\n");
+
+
+
+
+return 0;
+}
+
+simi: 0.948717948718 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\cd2d9b5b5cff96b07c5b22c0d139ffa2aa36b01823c9eb4db6eca19065a0ce2c4d2516bfcc2f1bc95daeae5b0bbd5e9c15b83feda776735e7bc3de6c49d25144\011/**/
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+
+float num1,num2,num3,num4; //**/
+float score; //**/
+
+printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+scanf("%f%f%f%f",&num1,&num2,&num3,&num4);
+
+printf("Thank you. Now enter student score (percent) >");
+scanf("%f",&score);
+
+if (score>=num1)
+printf("Student has an A grade\n");
+else if (score>=num2)
+printf("Student has an B grade\n");
+else if (score>=num3)
+printf("Student has an C grade\n");
+else if (score>=num4)
+printf("Student has an D grade\n");
+
+
+
+
+return 0;
+}
+
+simi: 0.948717948718 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\cd2d9b5b5cff96b07c5b22c0d139ffa2aa36b01823c9eb4db6eca19065a0ce2c4d2516bfcc2f1bc95daeae5b0bbd5e9c15b83feda776735e7bc3de6c49d25144\012/**/
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+
+float num1,num2,num3,num4; //**/
+float score; //**/
+
+printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+scanf("%f%f%f%f",&num1,&num2,&num3,&num4);
+
+printf("Thank you. Now enter student score (percent) >");
+scanf("%f",&score);
+
+if (score>=num1)
+printf("Student has an A grade\n");
+else if (score>=num2)
+printf("Student has an B grade\n");
+else if (score>=num3)
+printf("Student has an C grade\n");
+else if (score>=num4)
+printf("Student has an D grade\n");
+
+
+
+
+return 0;
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\cd2d9b5b5cff96b07c5b22c0d139ffa2aa36b01823c9eb4db6eca19065a0ce2c4d2516bfcc2f1bc95daeae5b0bbd5e9c15b83feda776735e7bc3de6c49d25144\013/**/
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+
+float num1,num2,num3,num4; //**/
+float score; //**/
+
+printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+scanf("%f%f%f%f",&num1,&num2,&num3,&num4);
+
+printf("Thank you. Now enter student score (percent) >");
+scanf("%f",&score);
+
+if (score>=num1)
+printf("Student has an A grade\n");
+else if (score>=num2)
+printf("Student has an B grade\n");
+else if (score>=num3)
+printf("Student has an C grade\n");
+else if (score>=num4)
+printf("Student has an D grade\n");
+else
+printf("Student has an F grade\n");
+
+
+
+return 0;
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\grade\dc11fbc9421c547961bfefcdc4044715a7131ceb484b10c8391745399298fcce81022dbb780a9efcac004486b7d989ef4bf0dfb5a4db7c599a8f9aa3393570ae\000/**/
+
+#include <stdio.h>
+
+int main() {
+	double a, b, c, d;
+	double score;
+
+	printf("Enter thresholds for A, B, C, D\nin that order, decreasing percentages > ");
+	scanf("%lf %lf %lf %lf", &a,&b,&c,&d);
+	
+	printf("Thank you. Now enter student score (percent) >");
+	scanf("%lf", &score);
+
+	if(score >= a) printf("Student has an A grade\n");
+	else if(score >= b) printf("Student has a B grade\n");
+	else if(score >= c) printf("Student has a C grade\n");
+	else if(score >= d) printf("Student has a D grade\n");
+	else  printf("Student has failed the course\n");
+
+return 0;
+
+} 

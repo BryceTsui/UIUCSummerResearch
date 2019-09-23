@@ -1,0 +1,564 @@
+G:\UIUC\IntroClass_Dot\IntroClass\syllables\48b82975576f07f162163145b334648a73321d003a0a8cd4577172e48ce4836e63953dffd4460a9a7aadc511a695ff93de0ce2baf953e4b78b747440caa736a6\000/**/
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#define leng 20
+int main(){
+char word[leng];
+int i, sy;
+sy=0;
+printf("Please enter a string > ");
+fgets(word,20, stdin);
+for (i=0; i<strlen(word); ++i){
+if ((word[i]=='a') ||(word[i]== 'e') ||(word[i]== 'i') ||(word[i]== 'o') ||(word[i]== 'u')||(word[i]== 'y'))
+sy+=1;
+}
+printf("The number of syllables is %d.\n",sy);
+return 0;
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\syllables\2af3c4163b40679ef94bbbbc863c4fa3785c6e164281f5e8850d9e4ffa387e5b162ceb37449ecca33961ff162d861c8d98ff702e723755b6c37c95d5cfaf1c40\000/**/
+
+#include<string.h>
+#include<stdio.h>
+#define str_size 20
+
+int main(void){
+
+	char x[str_size];
+	int len, i, vowels;	
+	vowels = 0;
+	printf("Please enter a string > ");
+	scanf("%s", x);
+	len = strlen(x);
+	for (i=0; i < len; ++i){
+		if ((x[i]=='a') || (x[i]=='e') || (x[i]=='i') || (x[i]=='o') || (x[i]=='u') || (x[i]=='y')){
+			vowels += 1;}}
+	printf("The number of syllables is %d.\n", vowels);
+	return 0;}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\syllables\2af3c4163b40679ef94bbbbc863c4fa3785c6e164281f5e8850d9e4ffa387e5b162ceb37449ecca33961ff162d861c8d98ff702e723755b6c37c95d5cfaf1c40\001/**/
+
+#include<string.h>
+#include<stdio.h>
+#define str_size 20
+
+int main(void){
+
+	char x[str_size];
+	int len, i, vowels;	
+	vowels = 0;
+	printf("Please enter a string > ");
+	scanf("%s", x);
+	len = strlen(x);
+	for (i=0; i < len; ++i){
+		if ((x[i]=='a') || (x[i]=='e') || (x[i]=='i') || (x[i]=='o') || (x[i]=='u') || (x[i]=='y')){
+			vowels += 1;}}
+	printf("The number of syllables is %d.\n", vowels);
+	return 0;}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\syllables\2af3c4163b40679ef94bbbbc863c4fa3785c6e164281f5e8850d9e4ffa387e5b162ceb37449ecca33961ff162d861c8d98ff702e723755b6c37c95d5cfaf1c40\002/**/
+
+#include<string.h>
+#include<stdio.h>
+#define str_size 20
+
+int main(void){
+
+	char x[str_size];
+	int len, i, vowels;	
+	vowels = 0;
+	printf("Please enter a string > ");
+	scanf("%s", x);
+	len = strlen(x);
+	for (i=0; i < len; ++i){
+		if ((x[i]=='a') || (x[i]=='e') || (x[i]=='i') || (x[i]=='o') || (x[i]=='u') || (x[i]=='y')){
+			vowels += 1;}}
+	printf("The number of syllables is %d.\n", vowels);
+	return 0;}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\syllables\2af3c4163b40679ef94bbbbc863c4fa3785c6e164281f5e8850d9e4ffa387e5b162ceb37449ecca33961ff162d861c8d98ff702e723755b6c37c95d5cfaf1c40\003/**/
+
+#include<string.h>
+#include<stdio.h>
+#define str_size 20
+
+int main(void){
+
+	char x[str_size];
+	int len, i, vowels;	
+	vowels = 0;
+	printf("Please enter a string > ");
+	scanf("%s", x);
+	len = strlen(x);
+	for (i=0; i < len; ++i){
+		if ((x[i]=='a') || (x[i]=='e') || (x[i]=='i') || (x[i]=='o') || (x[i]=='u') || (x[i]=='y')){
+			vowels += 1;}}
+	printf("The number of syllables is %d.\n", vowels);
+	return 0;}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\syllables\36d8008b13f6475ca8fa4553fea10042b0a6c623665065672051445c3464d61b29b47cb66321844a0264505a0f5ccf5aa6de072aa266b5a8b0cf13198380a389\000/**/
+#include <stdio.h>
+#include <string.h>
+
+
+int main () {
+
+
+  char instr[21];
+
+
+  int i,len, s;
+  s=0;
+  printf("Please enter a string > ");
+  scanf("%s",instr);
+    len = strlen(instr);
+    for (i = 0; i <len ; i++) {
+       if (instr[i]=='a' || instr[i]=='e' || instr[i]=='i' || instr[i]=='o' || instr[i]=='u' || instr[i]=='y') 
+          s=s+1;
+    }
+        printf("The number of syllables is %d.\n", s);
+
+
+  return 0;
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\syllables\36d8008b13f6475ca8fa4553fea10042b0a6c623665065672051445c3464d61b29b47cb66321844a0264505a0f5ccf5aa6de072aa266b5a8b0cf13198380a389\001/**/
+#include <stdio.h>
+#include <string.h>
+
+
+int main () {
+
+
+  char instr[21];
+
+
+  int i,len, s;
+  s=0;
+  printf("Please enter a string > ");
+  scanf("%s",instr);
+    len = strlen(instr);
+    for (i = 0; i <len ; i++) {
+       if (instr[i]=='a' || instr[i]=='e' || instr[i]=='i' || instr[i]=='o' || instr[i]=='u' || instr[i]=='y') 
+          s=s+1;
+    }
+        printf("The number of syllables is %d.\n", s);
+
+
+  return 0;
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\syllables\36d8008b13f6475ca8fa4553fea10042b0a6c623665065672051445c3464d61b29b47cb66321844a0264505a0f5ccf5aa6de072aa266b5a8b0cf13198380a389\002/**/
+#include <stdio.h>
+#include <string.h>
+
+
+int main () {
+
+
+  char instr[21];
+
+
+  int i,len, s;
+  s=0;
+  printf("Please enter a string > ");
+  scanf("%s",instr);
+    len = strlen(instr);
+    for (i = 0; i <len ; i++) {
+       if (instr[i]=='a' || instr[i]=='e' || instr[i]=='i' || instr[i]=='o' || instr[i]=='u' || instr[i]=='y') 
+          s=s+1;
+    }
+        printf("The number of syllables is %d.\n", s);
+
+
+  return 0;
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\syllables\36d8008b13f6475ca8fa4553fea10042b0a6c623665065672051445c3464d61b29b47cb66321844a0264505a0f5ccf5aa6de072aa266b5a8b0cf13198380a389\003/**/
+#include <stdio.h>
+#include <string.h>
+
+
+int main () {
+
+
+  char instr[21];
+
+
+  int i,len, s;
+  s=0;
+  printf("Please enter a string > ");
+  scanf("%s",instr);
+    len = strlen(instr);
+    for (i = 0; i <len ; i++) {
+       if (instr[i]=='a' || instr[i]=='e' || instr[i]=='i' || instr[i]=='o' || instr[i]=='u' || instr[i]=='y') 
+          s=s+1;
+    }
+        printf("The number of syllables is %d.\n", s);
+
+
+  return 0;
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\syllables\36d8008b13f6475ca8fa4553fea10042b0a6c623665065672051445c3464d61b29b47cb66321844a0264505a0f5ccf5aa6de072aa266b5a8b0cf13198380a389\004/**/
+#include <stdio.h>
+#include <string.h>
+
+
+int main () {
+
+
+  char instr[21];
+
+
+  int i,len, s;
+  s=0;
+  printf("Please enter a string > ");
+  scanf("%s",instr);
+    len = strlen(instr);
+    for (i = 0; i <len ; i++) {
+       if (instr[i]=='a' || instr[i]=='e' || instr[i]=='i' || instr[i]=='o' || instr[i]=='u' || instr[i]=='y') 
+          s=s+1;
+    }
+        printf("The number of syllables is %d.\n", s);
+
+
+  return 0;
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\syllables\37593ded898de551d1f1a1e71d862d06a14049f3aefa1910057604fed896fab1dcabd08db9ed0f2f21f62b2335c6a8af771e9a80102c3384257696c14acea4a4\000/**/
+
+#include <stdio.h>
+
+#include <string.h>
+
+int main(void)
+{
+	char myString[21]; 
+	int letter, counter = 0;
+
+	printf("Please enter a string > ");
+	scanf("%s", myString);
+
+	for(letter = 0; myString[letter] != '\0'; letter++)
+		if ((myString[letter] == 'a') || (myString[letter] == 'e') || (myString[letter] == 'i') || (myString[letter] == 'o') || (myString[letter] == 'u') || (myString[letter] == 'y')) {
+		counter = counter + 1;
+		}
+
+	printf("The number of syllables is %d.\n", counter);
+
+return (0);
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\syllables\37593ded898de551d1f1a1e71d862d06a14049f3aefa1910057604fed896fab1dcabd08db9ed0f2f21f62b2335c6a8af771e9a80102c3384257696c14acea4a4\001/**/
+
+#include <stdio.h>
+
+#include <string.h>
+
+int main(void)
+{
+	char myString[21]; 
+	int letter, counter = 0;
+
+	printf("Please enter a string > ");
+	scanf("%s", myString);
+
+	for(letter = 0; myString[letter] != '\0'; letter++)
+		if ((myString[letter] == 'a') || (myString[letter] == 'e') || (myString[letter] == 'i') || (myString[letter] == 'o') || (myString[letter] == 'u') || (myString[letter] == 'y')) {
+		counter = counter + 1;
+		}
+
+	printf("The number of syllables is %d.\n", counter);
+
+return (0);
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\syllables\37593ded898de551d1f1a1e71d862d06a14049f3aefa1910057604fed896fab1dcabd08db9ed0f2f21f62b2335c6a8af771e9a80102c3384257696c14acea4a4\002/**/
+
+#include <stdio.h>
+
+#include <string.h>
+
+int main(void)
+{
+	char myString[21]; 
+	int letter, counter = 0;
+
+	printf("Please enter a string > ");
+	scanf("%s", myString);
+
+	for(letter = 0; myString[letter] != '\0'; letter++)
+		if ((myString[letter] == 'a') || (myString[letter] == 'e') || (myString[letter] == 'i') || (myString[letter] == 'o') || (myString[letter] == 'u') || (myString[letter] == 'y')) {
+		counter = counter + 1;
+		}
+
+	printf("The number of syllables is %d.\n", counter);
+
+return (0);
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\syllables\37593ded898de551d1f1a1e71d862d06a14049f3aefa1910057604fed896fab1dcabd08db9ed0f2f21f62b2335c6a8af771e9a80102c3384257696c14acea4a4\003/**/
+
+#include <stdio.h>
+
+#include <string.h>
+
+int main(void)
+{
+	char myString[21]; 
+	int letter, counter = 0;
+
+	printf("Please enter a string > ");
+	scanf("%s", myString);
+
+	for(letter = 0; myString[letter] != '\0'; letter++)
+		if ((myString[letter] == 'a') || (myString[letter] == 'e') || (myString[letter] == 'i') || (myString[letter] == 'o') || (myString[letter] == 'u') || (myString[letter] == 'y')) {
+		counter = counter + 1;
+		}
+
+	printf("The number of syllables is %d.\n", counter);
+
+return (0);
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\syllables\37593ded898de551d1f1a1e71d862d06a14049f3aefa1910057604fed896fab1dcabd08db9ed0f2f21f62b2335c6a8af771e9a80102c3384257696c14acea4a4\004/**/
+
+#include <stdio.h>
+
+#include <string.h>
+
+int main(void)
+{
+	char myString[21]; 
+	int letter, counter = 0;
+
+	printf("Please enter a string > ");
+	scanf("%s", myString);
+
+	for(letter = 0; myString[letter] != '\0'; letter++)
+		if ((myString[letter] == 'a') || (myString[letter] == 'e') || (myString[letter] == 'i') || (myString[letter] == 'o') || (myString[letter] == 'u') || (myString[letter] == 'y')) {
+		counter = counter + 1;
+		}
+
+	printf("The number of syllables is %d.\n", counter);
+
+return (0);
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\syllables\37593ded898de551d1f1a1e71d862d06a14049f3aefa1910057604fed896fab1dcabd08db9ed0f2f21f62b2335c6a8af771e9a80102c3384257696c14acea4a4\005/**/
+
+#include <stdio.h>
+
+#include <string.h>
+
+int main(void)
+{
+	char myString[21]; 
+	int letter, counter = 0;
+
+	printf("Please enter a string > ");
+	scanf("%s", myString);
+
+	for(letter = 0; myString[letter] != '\0'; letter++)
+		if ((myString[letter] == 'a') || (myString[letter] == 'e') || (myString[letter] == 'i') || (myString[letter] == 'o') || (myString[letter] == 'u') || (myString[letter] == 'y')) {
+		counter = counter + 1;
+		}
+
+	printf("The number of syllables is %d.\n", counter);
+
+return (0);
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\syllables\37593ded898de551d1f1a1e71d862d06a14049f3aefa1910057604fed896fab1dcabd08db9ed0f2f21f62b2335c6a8af771e9a80102c3384257696c14acea4a4\006/**/
+
+#include <stdio.h>
+
+#include <string.h>
+
+int main(void)
+{
+	char myString[21]; 
+	int letter, counter = 0;
+
+	printf("Please enter a string > ");
+	scanf("%s", myString);
+
+	for(letter = 0; myString[letter] != '\0'; letter++)
+		if ((myString[letter] == 'a') || (myString[letter] == 'e') || (myString[letter] == 'i') || (myString[letter] == 'o') || (myString[letter] == 'u') || (myString[letter] == 'y')) {
+		counter = counter + 1;
+		}
+
+	printf("The number of syllables is %d.\n", counter);
+
+return (0);
+}
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\syllables\489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7\002/**/
+
+#include <stdio.h>
+#include <string.h>
+	
+int main(void) {
+	char instr[20];
+	int len, i, num = 0; //**/
+	
+	printf("Please enter a string > ");
+	scanf("%s", instr);
+	
+	len = strlen(instr);
+	i = 0;
+	while (i < len) {
+		if (instr[i] == 'a' || instr[i] == 'e' || instr[i] == 'i' || instr[i] == 'o' || instr[i] == 'u' || instr[i] == 'y')
+			num = num + 1;
+		i = i + 1;
+		
+	}
+	
+	printf("The number of syllables is %i\n", num);
+	
+	return (0);
+}
+
+
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\syllables\489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7\003/**/
+
+#include <stdio.h>
+#include <string.h>
+	
+int main(void) {
+	char instr[20];
+	int len, i, num = 0; //**/
+	
+	printf("Please enter a string > ");
+	scanf("%s", instr);
+	
+	len = strlen(instr);
+	i = 0;
+	while (i < len) {
+		if (instr[i] == 'a' || instr[i] == 'e' || instr[i] == 'i' || instr[i] == 'o' || instr[i] == 'u' || instr[i] == 'y')
+			num = num + 1;
+		i = i + 1;
+		
+	}
+	
+	printf("The number of syllables is %i\n", num);
+	
+	return (0);
+}
+
+
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\syllables\489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7\004/**/
+
+#include <stdio.h>
+#include <string.h>
+	
+int main(void) {
+	char instr[20];
+	int len, i, num = 0; //**/
+	
+	printf("Please enter a string > ");
+	scanf("%s", instr);
+	
+	len = strlen(instr);
+	i = 0;
+	while (i < len) {
+		if (instr[i] == 'a' || instr[i] == 'e' || instr[i] == 'i' || instr[i] == 'o' || instr[i] == 'u' || instr[i] == 'y')
+			num = num + 1;
+		i = i + 1;
+		
+	}
+	
+	printf("The number of syllables is %i\n", num);
+	
+	return (0);
+}
+
+
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\syllables\489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7\005/**/
+
+#include <stdio.h>
+#include <string.h>
+	
+int main(void) {
+	char instr[20];
+	int len, i, num = 0; //**/
+	
+	printf("Please enter a string > ");
+	scanf("%s", instr);
+	
+	len = strlen(instr);
+	i = 0;
+	while (i < len) {
+		if (instr[i] == 'a' || instr[i] == 'e' || instr[i] == 'i' || instr[i] == 'o' || instr[i] == 'u' || instr[i] == 'y')
+			num = num + 1;
+		i = i + 1;
+		
+	}
+	
+	printf("The number of syllables is %i\n", num);
+	
+	return (0);
+}
+
+
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\syllables\489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7\006/**/
+
+#include <stdio.h>
+#include <string.h>
+	
+int main(void) {
+	char instr[20];
+	int len, i, num = 0; //**/
+	
+	printf("Please enter a string > ");
+	scanf("%s", instr);
+	
+	len = strlen(instr);
+	i = 0;
+	while (i < len) {
+		if (instr[i] == 'a' || instr[i] == 'e' || instr[i] == 'i' || instr[i] == 'o' || instr[i] == 'u' || instr[i] == 'y')
+			num = num + 1;
+		i = i + 1;
+		
+	}
+	
+	printf("The number of syllables is %i\n", num);
+	
+	return (0);
+}
+
+
+
+simi: 1.0 path: G:\UIUC\IntroClass_Dot\IntroClass\syllables\489253253c866aa61b6b0d95c6072d3912f6b78dfbc01bdb2fbb663aefe33d6d353b1a61bb5fc567c9d6c334994111816edd3d43db47e4ea4a84953198736ff7\007/**/
+
+#include <stdio.h>
+#include <string.h>
+	
+int main(void) {
+	char instr[20];
+	int len, i, num = 0; //**/
+	
+	printf("Please enter a string > ");
+	scanf("%s", instr);
+	
+	len = strlen(instr);
+	i = 0;
+	while (i < len) {
+		if (instr[i] == 'a' || instr[i] == 'e' || instr[i] == 'i' || instr[i] == 'o' || instr[i] == 'u' || instr[i] == 'y')
+			num = num + 1;
+		i = i + 1;
+		
+	}
+	
+	printf("The number of syllables is %i\n", num);
+	
+	return (0);
+}
+
+
